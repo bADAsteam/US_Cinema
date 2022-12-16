@@ -1,5 +1,5 @@
 ---
-layout: default
+doc: default
 ---
 
 ## Uncovering insights from Raw data
