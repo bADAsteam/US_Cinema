@@ -1,9 +1,0 @@
-title: "Hollywood: a reflection of a patriarchal society ?"
-description: Examining the role of Womem in Hollywod and how it reflects our society ?
-show_downloads: true
-google_analytics:
-baseurl: "US_Cinema"
-url: ""
-theme: jekyll-theme-cayman
-
-remote_theme: jekyll/minima@<insert-commit-hash_or_tag>
