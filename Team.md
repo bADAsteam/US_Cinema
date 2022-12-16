@@ -9,7 +9,7 @@ Test
 
 <div class="row">
   <div class="column">
-        <img src="/output/AntoineLap.jpeg" alt="image1" style="width:100%">
+        <img src="/US_Cinema/output/AntoineLap.jpeg" alt="image1" style="width:100%">
         <p><strong>Antoine Laperriere</strong><br> Data Explorer</p>
     </div>
     <div class="column">
