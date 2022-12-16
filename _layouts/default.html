@@ -9,18 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#258879">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/US_Cinema/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
   </head>
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.show_downloads %}
-      <a href="/US_Cinema/Datastory" class="btn">Datastory</a>
-      <a href="/US_Cinema/Raw_Data" class="btn">Raw data</a>
-      <a href="/US_Cinema/Team" class="btn">Team</a>
-      {% endif %}
+      
+      <a href="/Datastory" class="btn">Datastory</a>
+      <a href="/Raw_Data" class="btn">Raw data</a>
+      <a href="/Team" class="btn">Team</a>
+      
     </header>
 
     <main id="content" class="main-content" role="main">
