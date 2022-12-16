@@ -15,7 +15,7 @@ layout: default
         <p><strong>Benoit Gaudiot</strong><br> Data Analyst </p>
   </div>
 <div class="column">
-    <img src="/US_Cinema/assets/images/Team/Nathan.jpg" alt="image1" style="width:100%">
+    <img src="US_Cinema/assets/images/Team/Nathan.jpg" alt="image1" style="width:100%">
     <p><strong>Nathan Paillou</strong><br> Data Analyst</p>
 </div>
 <div class="column">
