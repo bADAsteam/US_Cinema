@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Uncovering insights from Raw data
+### Uncovering insights from Raw data
 
  The dataset consists of 42,306 movie plot summaries extracted from Wikipedia, along with aligned metadata extracted from Freebase. This metadata includes information about the movie's box office revenue, genre, release date, runtime, and language.
 
