@@ -1,0 +1,12 @@
+- id: gallery1
+  description: This is the first gallery
+  imagefolder: /assets/images/Team
+  images:
+  - name: Nathan.jpg
+  - name: Nathan.jpg
+
+
+
+{% for gallery in assets.images.galleries %}
+- [{{ gallery.description }}]({{ gallery.id }})
+{% endfor %}
