@@ -32,7 +32,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-![image](/output/GenreByDecade.png){: width="250" }
+![image](/output/GenreByDecade.png){: width="1250" }
 {: refdef}
 
 ## Conclusion
