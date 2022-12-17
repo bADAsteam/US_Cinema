@@ -18,7 +18,7 @@ How has the women places evolves in the US cinema industry ? Does the cinema rep
 
 Given all of these factors, several questions come to mind:
 
-* Is it possible to define the maon character from a summary ?
+* Is it possible to define the main character from a summary ?
 * Does the genre of the movie impacts how women are represented ?
 * 
 
@@ -41,7 +41,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	| 0             | 0           | 0             |
 
 {:refdef: style="text-align: center;"}
-![image](/output/world_map.png)
+{% include world_map.html %}
 {: refdef}
 
 {:refdef: style="text-align: center;"}
