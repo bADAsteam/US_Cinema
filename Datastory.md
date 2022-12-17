@@ -27,9 +27,13 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ![image](/output/world_map.png)
 {: refdef}
 
-## Evolution of movie in us ?
+{:refdef: style="text-align: center;"}
+![image](/output/MovieByDecade.png){: width="250" }
+{: refdef}
 
-## Women in cinema ?
+{:refdef: style="text-align: center;"}
+![image](/output/GenreByDecade.png){: width="250" }
+{: refdef}
 
 ## Conclusion
 
