@@ -110,7 +110,8 @@ Example of the dataset:
 </table>
 
 ### Summary dataset
-Example of summary
+
+{% include 101384.xml %}
 
 ## How to treat the data ?
 
