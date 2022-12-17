@@ -9,6 +9,8 @@ How has the women places evolves in the US cinema industry ? Does the cinema rep
 
 ## The world of cinema through American eyes ?
 
+Thanks to a preliminary study, it has been chosen to focus on American movies in the global cinema industry. This focus is appropriate for this case because Hollywood has produced half of the movies made worldwide and has the largest pool of acting talent.
+
 Country                      |	code |	Number_of_movie |	Percent |
 |:---------------------------|:------|:-----------------|:----------|	
 ['United States of America'] |	USA	 | 34408	        | 39.806106	|
@@ -20,6 +22,8 @@ Country                      |	code |	Number_of_movie |	Percent |
 ['Republic of China']        |	CHN	 | 1	            | 0.001157  |	
 ['Macau']                    |	MAC	 | 1	            | 0.001157	|
 ['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	|
+
+![image](/output/world_map.jpg)
 
 ## Evolution of movie in us ?
 
