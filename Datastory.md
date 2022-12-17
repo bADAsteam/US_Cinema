@@ -11,19 +11,21 @@ How has the women places evolves in the US cinema industry ? Does the cinema rep
 
 Thanks to a preliminary study, it has been chosen to focus on American movies in the global cinema industry. This focus is appropriate for this case because Hollywood has produced half of the movies made worldwide and has the largest pool of acting talent.
 
-Country                      |	code |	Number_of_movie |	Percent |
-|:---------------------------|:------|:-----------------|:----------|	
-['United States of America'] |	USA	 | 34408	        | 39.806106	|
-['India']                    |	IND  |	8411	        | 9.730561  |	
-['United Kingdom']           |	GBR  |	7868	        | 9.102373  |
-['France']                   |	FRA	 | 4395	            | 5.084510  |	
-['Italy']                    |	ITA	 | 3163	            | 3.659228	|
-...                          |	...	 | ...	            | ...	    |
-['Republic of China']        |	CHN	 | 1	            | 0.001157  |	
-['Macau']                    |	MAC	 | 1	            | 0.001157	|
-['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	|
+Country                      |	code |	Number_of_movie |	Percent | Number of act | Male acting | Female acting |
+|:---------------------------|:------|:-----------------|:----------|:--------------|:------------|:--------------|	
+['United States of America'] |	USA	 | 34408	        | 39.806106	| 226169        | 152713      | 73456         |
+['India']                    |	IND  |	8411	        | 9.730561  | 45729         | 30024       | 15705         |	
+['United Kingdom']           |	GBR  |	7868	        | 9.102373  | 48592         | 32837       | 16183         |
+['France']                   |	FRA	 | 4395	            | 5.084510  | 25429         | 16183       | 9246          |	
+['Italy']                    |	ITA	 | 3163	            | 3.659228	| 14750         | 9740        | 5010          |
+...                          |	...	 | ...	            | ...	    | ...           | ...         | ...           |
+['Republic of China']        |	CHN	 | 1	            | 0.001157  | 3             | 2           | 1             |
+['Macau']                    |	MAC	 | 1	            | 0.001157	| 3             | 1           | 2             |
+['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	| 0             | 0           | 0             |
 
+{:refdef: style="text-align: center;"}
 ![image](/output/world_map.png)
+{: refdef}
 
 ## Evolution of movie in us ?
 
