@@ -23,7 +23,7 @@ Country                      |	code |	Number_of_movie |	Percent |
 ['Macau']                    |	MAC	 | 1	            | 0.001157	|
 ['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	|
 
-![image](/output/world_map.jpg)
+![image](/output/world_map.png)
 
 ## Evolution of movie in us ?
 
