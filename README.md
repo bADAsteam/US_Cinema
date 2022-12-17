@@ -1,4 +1,4 @@
-# Let's make it Pope-litical Data story
+# Hollywood: a reflection of a patriarchal society ?
 
 This git repository allows us to build the data story website associated with our ADA project.
 
