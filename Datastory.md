@@ -7,10 +7,12 @@ In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women 
 
 This datastory begins with a trio of datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1915 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of the movies in the first dataset
 
+The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about the films. In addition to examining the <strong>main character</strong> and other key details, we will also delve into the representation of <strong>male and female actors in the movies</strong>. Through the analysis of summaries, we can gain a deeper understanding of the roles and portrayal of male and female characters in the film industry, as well as any potential biases or trends in the depiction of these characters.
 
- It would be interesting to first examine the underlying distinctions between men and women's presence in a movie. Specifically, to investigate the ages of the actors and actresses as well as the roles' percentage of occupations. Then, we will explore the representation of women in front of the camera. In fact, by examining the roles they play, one might gain an understanding of how the director stages them.
 
 How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women and has there been a change over the years ? Has the role played by woman and the attributes of their characters evolves through the year ? And finally how the place of actresses evolve for the public ?
+
+## Project pipeline
 
 ## The world of cinema through American eyes ?
 
