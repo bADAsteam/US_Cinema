@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-Test
+[comment]: <> (a reference style link.)
 
 ## Meet our team of data scientist
 
