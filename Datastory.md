@@ -3,6 +3,10 @@ layout: default
 ---
 ![image](/output/Intro.jpg)
 
+{:refdef: style="text-align: center;"}
+# Introduction
+{: refdef}
+
 In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in film industry and more broadly in visual culture. She introduced the term "male gaze" and allow people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has changed over the period of nearly a century.
 
 This datastory begins with a trio of datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1915 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of the movies in the first dataset
@@ -11,6 +15,12 @@ The central focus of this project is to thoroughly analyze movie summaries, whic
 
 
 How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women and has there been a change over the years ? Has the role played by woman and the attributes of their characters evolves through the year ? And finally how the place of actresses evolve for the public ?
+
+Given all of these factors, several questions come to mind:
+
+* Is it possible to define the maon character from a summary ?
+* Does the genre of the movie impacts how women are represented ?
+* 
 
 ## Project pipeline
 
