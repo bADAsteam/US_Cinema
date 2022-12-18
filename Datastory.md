@@ -3,9 +3,9 @@ layout: default
 ---
 ![image](/output/Intro.jpg)
 
-{:refdef: style="text-align: center;"}
+
 # Introduction
-{: refdef}
+
 
 In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in film industry and more broadly in visual culture. She introduced the term "male gaze" and allow people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has changed over the period of nearly a century.
 
