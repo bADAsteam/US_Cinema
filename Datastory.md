@@ -42,7 +42,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 {% include world_map.html %}
 
 
-![image](/output/MovieByDecade.png){:.centered}
+![image](/output/MovieByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 
