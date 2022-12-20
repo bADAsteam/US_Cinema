@@ -50,6 +50,17 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ![image](/output/GenreByDecade.png){: width="500" }
 {: refdef}
 
+## Summary analysis (point of view real)
+### how to extract character from summary
+### repartion of character per decade
+### repartition of character per genre
+
+## Analysis diference man woman thks to summary
+
+
+## Comparison to public sentiment 
+## Use grade on each movie
+
 ## Conclusion
 
 
