@@ -42,7 +42,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 {% include world_map.html %}
 
 
-![image](/output/MovieByDecade.png){: width="450" }
+![image](/output/MovieByDecade.png){: width="450" }{:.centered}
 
 
 
@@ -54,6 +54,11 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ### repartition of character per genre
 
 ## Analysis diference man woman thks to summary
+
+![image](/output/MF_Adjective_decade.png){: width="450" }
+![image](/output/MF_Verb_decade.png){: width="450" }
+
+![image](/output/Adj_frequency.png){: width="450" }
 
 
 ## Comparison to public sentiment 
