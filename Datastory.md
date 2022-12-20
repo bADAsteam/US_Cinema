@@ -42,11 +42,11 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 {% include world_map.html %}
 
 
-![image](/output/MovieByDecade.png){:style="display:block; width="600"; margin-left:auto; margin-right:auto"}
+![image](/output/MovieByDecade.png){:style="display:block; width="800"; margin-left:auto; margin-right:auto"}
 
 
 
-![image](/output/GenreByDecade.png){: width="500" }
+![image](/output/GenreByDecade.png){:.centered ; width="500" }
 
 ## Summary analysis (point of view real)
 ### how to extract character from summary
