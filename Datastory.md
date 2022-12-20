@@ -38,17 +38,15 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ['Macau']                    |	MAC	 | 1	            | 0.001157	| 3             | 1           | 2             |
 ['Palestinian Territories']  |	PSE	 | 1	            | 0.001157	| 0             | 0           | 0             |
 
-{:refdef: style="text-align: center;"}
+
 {% include world_map.html %}
-{: refdef}
 
-{:refdef: style="text-align: center;"}
+
 ![image](/output/MovieByDecade.png){: width="450" }
-{: refdef}
 
-{:refdef: style="text-align: center;"}
+
+
 ![image](/output/GenreByDecade.png){: width="500" }
-{: refdef}
 
 ## Summary analysis (point of view real)
 ### how to extract character from summary
