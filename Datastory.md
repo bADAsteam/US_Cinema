@@ -42,11 +42,11 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 {% include world_map.html %}
 
 
-![image](/output/MovieByDecade.png){:style="display:block; width="800"; margin-left:auto; margin-right:auto"}
+![image](/output/MovieByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 
-![image](/output/GenreByDecade.png){:.centered ; width="500" }
+![image](/output/GenreByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Summary analysis (point of view real)
 ### how to extract character from summary
@@ -55,10 +55,10 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 ## Analysis diference man woman thks to summary
 
-![image](/output/MF_Adjective_decade.png){: width="450" }
-![image](/output/MF_Verb_decade.png){: width="450" }
+![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![image](/output/Adj_frequency.png){: width="450" }
+![image](/output/Adj_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 ## Comparison to public sentiment 
