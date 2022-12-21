@@ -53,20 +53,21 @@ Here, the objective was to locate and analyze the characters within the summarie
 As part of the analysis, the number of male and female characters was tracked over time to gain a better understanding of their evolution. The goal was to determine if the number of female characters was approaching the number of male characters.
 
 {% include Charac_decade.html %}
+This preliminary analysis of summaries provides a quick overview of the subject matter. The main finding is that the number of female characters is roughly half the number of male characters, and there is not a clear trend over time beyond an overall increase in the number of characters. It is worth noting that, while the proportion of female characters increases after the top four characters in a movie, it is still lower than the number of male characters. This initial analysis is a necessary first step in gaining a deeper understanding of summaries before moving on to a more complex analysis of the characteristics that define a character.
 
-### Genre Repartition by Decade
-In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
-
-{% include Genre_decade.html %}
-
-
-## Analysis diference man woman thks to summary
+## How are character are linked to ?
 
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ![image](/output/Adj_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
+## Does the genre have an impact ob the result ?
+
+### Genre Repartition by Decade
+In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
+
+{% include Genre_decade.html %}
 
 ## Comparison to public sentiment 
 ## Use grade on each movie
