@@ -64,6 +64,10 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ## Comparison to public sentiment 
 ## Use grade on each movie
 
+{% include plot1.html %}
+{% include plot2.html %}
+{% include plot3.html %}
+
 ## Conclusion
 
 
