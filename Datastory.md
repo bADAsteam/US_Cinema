@@ -61,11 +61,20 @@ This initial analysis is a necessary first step in gaining a deeper understandin
 
 Preliminary exploration of the summaries has simplified the analysis of character. The ML algorithm changes all pronouns to the names they are linked to. As a result, a NLP was conducted on all summaries to understand how characters are characterized, resulting in a list of adjectives and verbs summarized by a mean score.
 
-### What caracterize a character ?
+### What describes a character ?
+To begin characterizing a character, the most commonly used adjectives and verbs are analyzed and compiled based on their frequency in summaries. The size of each adjective or verb corresponds to its frequency.
+
+#### Adjective link to a character
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
+#### Verb link to a character
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
+### Normalization of character description
+It is difficult to differentiate men and women only based on words. This might be due to the significant number of different words. In order to reduce the scope of the data, we chose to analyse lexical the fields. From this, we normalize the data to 194 features (lexical fields) which allows to compare between men and women, also between decades.
+
+#### Adjective normalization
 ![image](/output/Adj_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
+#### Verb normalization
 ![image](/output/Verbs_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Does the genre have an impact ob the result ?
