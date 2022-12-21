@@ -41,21 +41,13 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 {% include world_map.html %}
 
-
-![image](/output/MovieByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
-
-
-
-![image](/output/GenreByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
-
 ## What can a director's point of view reveal in a summary ?
 The study aims to examine the evolution of female characters as depicted by movie directors. One way to do this is by analyzing summaries of films, as they often contain information about characters and their attributes. This can provide insight into how women have been portrayed and represented in films over time, and how this has changed or evolved. It is important to approach this analysis objectively and consider multiple perspectives, rather than relying on personal opinions or biases.
 
-### how to extract character from summary
-A Machine Learning algorithm is used to extract all characters from summaries by identifying and linking pronouns to their corresponding names. This process results in a list of characters for each movie, which is then ranked to identify the main character."
+### Who are the characters that can be found within summaries?
+Here, the objective was to locate and analyze the characters within the summaries in order to determine the main character. A Machine Learning algorithm is used to extract all characters from summaries by identifying and linking pronouns to their corresponding names. This process results in a list of characters for each movie, which is then ranked to identify the main character. It also make differenciation between male and female character.
 
 {% include Charac_ranking.html %}
-
 
 ### Character Repartition by Decade
 As part of the analysis, the number of male and female characters was tracked over time to gain a better understanding of their evolution. The goal was to determine if the number of female characters was approaching the number of male characters.
@@ -63,6 +55,7 @@ As part of the analysis, the number of male and female characters was tracked ov
 {% include Charac_decade.html %}
 
 ### Genre Repartition by Decade
+In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
 
 {% include Genre_decade.html %}
 
