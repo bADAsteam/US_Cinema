@@ -61,6 +61,7 @@ This preliminary analysis of summaries provides a quick overview of the subject 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ![image](/output/Adj_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![image](/output/Verbs_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Does the genre have an impact ob the result ?
 
