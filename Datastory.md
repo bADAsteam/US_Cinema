@@ -50,8 +50,12 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 ## Summary analysis (point of view real)
 ### how to extract character from summary
+{% include Charac_ranking.html %}
 ### repartion of character per decade
+{% include Charac_decade.html %}
 ### repartition of character per genre
+{% include Genre_decade.html %}
+
 
 ## Analysis diference man woman thks to summary
 
@@ -63,10 +67,6 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 ## Comparison to public sentiment 
 ## Use grade on each movie
-
-{% include plot1.html %}
-{% include plot2.html %}
-{% include plot3.html %}
 
 ## Conclusion
 
