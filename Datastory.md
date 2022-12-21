@@ -49,16 +49,21 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 ![image](/output/GenreByDecade.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## What can a director's point of view reveal in a summary ?
-
 The study aims to examine the evolution of female characters as depicted by movie directors. One way to do this is by analyzing summaries of films, as they often contain information about characters and their attributes. This can provide insight into how women have been portrayed and represented in films over time, and how this has changed or evolved. It is important to approach this analysis objectively and consider multiple perspectives, rather than relying on personal opinions or biases.
 
 ### how to extract character from summary
-To begin we extract all the characters from summaries thanks to a Machine Learning algorithm which leaks all pronoms to their related name. With this, we found a list of character by movie. We rank them and find the main character. 
+A Machine Learning algorithm is used to extract all characters from summaries by identifying and linking pronouns to their corresponding names. This process results in a list of characters for each movie, which is then ranked to identify the main character."
 
 {% include Charac_ranking.html %}
-### repartion of character per decade
+
+
+### Character Repartition by Decade
+As part of the analysis, the number of male and female characters was tracked over time to gain a better understanding of their evolution. The goal was to determine if the number of female characters was approaching the number of male characters.
+
 {% include Charac_decade.html %}
-### repartition of character per genre
+
+### Genre Repartition by Decade
+
 {% include Genre_decade.html %}
 
 
