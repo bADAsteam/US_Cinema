@@ -95,6 +95,8 @@ In order to have a better understanding of the characteristics that are typicall
 {% include plot11.html %}<!--- Male most used verb --->
 {% include plot13.html %}<!--- Female most used verb --->
 
+### Predicting a character's gender based on adjectives or verbs
+
 ## Does the genre have an impact ob the result ?
 
 ### Genre Repartition by Decade
