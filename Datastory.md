@@ -20,14 +20,13 @@ How have the perspectives of both directors and audiences impacted the evolution
 
 ## Is Hollwood the most prolific film production ?
 ```
-This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset. The plot below shows the world distribution of the films contained in the dataset.
+This data story utilizes three datasets from the CMU Movie Summary Corpus to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of 81741 movies spanning from 1888 to 2012, while the second dataset provides information on the characters that appear in these films. The final dataset includes summaries of 20358 movies from the first dataset. The plot below illustrates the global distribution of the films included in the dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
 ```
 {% include world_map.html %}<!--- World map--->
-We see that the USA concentrates 39% of the movies, while other countries does not exceed 10%. 
+Our analysis shows that the United States accounts for 39% of the films in the dataset, while other countries do not exceed 10%. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the portrayal of male and female characters in American cinema in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
+The evolution 
 {% include plot4.html %}<!--- Movie by decade--->
-```
-TEXT
-```
+
 ----------------------------------------------------------------
 ## Are women underrepresented?
 ```
