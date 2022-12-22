@@ -71,7 +71,7 @@ The most used adjectives and verbs does not display an obvious difference betwee
 Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as ```"old," "young," "go," "find," and "tell,"``` were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
 
 ### Appearance of a bias by analyzing the lexical fields
-While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the scores for 194 lexical fields for each decade. In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
+While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the scores for <i>194 lexical fields</i> for each decade. In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
 
 {% include plot10.html %}<!--- Interactive bar plot : male adj --->
 {% include plot12.html %}<!--- Interactive bar plot : female adj --->
@@ -87,25 +87,21 @@ Now that we have observed differences in the way male and female characters are 
 {% include plot16.html %}<!--- Confusion matrix verb interactif --->
 
 Two notable observations can be made from our analysis:
--The accuracy of adjectives in differentiating male and female characters remains fairly constant between 1930 and 1970 (between 96% and 100%), but decreases thereafter until reaching 80% in 2000-2010. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
-- The false p and false n ??????????
+* The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> (between <i>96% and 100%</i>), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
+* The false p and false n ??????????
 These findings highlight the potential changes in language use in portraying gender bias in film over time, but further research is needed to fully understand these dynamics.
 
 
-After identifying the important features, we used them to reduce the dimensionality of the vectors. To further reduce the dimensionality, we applied principal component analysis (PCA) on each decade to compare the distance between male and female character points. This will allow us to visualize the relationships between male and female characters and see how they have changed over time.
+After identifying the important features, we used them to reduce the dimensionality of the vectors. To further reduce the dimensionality, we applied <i>Principal Component Analysis</i> (PCA) on each decade to compare the distance between male and female character points. This will allow us to visualize the relationships between male and female characters and see how they have changed over time.
 
 {% include PCA_adjectives.html %}<!--- PCA adj --->
 
 {% include PCA_verbs.html %}<!--- PCA verb --->
 
-When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between 1930 and 1970, making it difficult to draw any meaningful conclusions. However, after 1970, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
-
-
+When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
 The role of the director in setting the characters and shaping the overall tone and themes of a film cannot be overstated. The director is responsible for interpreting the script and bringing it to life on screen, and this includes the development of the characters and their motivations. In this sense, the director has a significant influence on the portrayal of gender and any biases that may be present in the film.
 However, it is also important to consider the audience when analyzing a film for gender bias. The film industry is a business, and filmmakers often have to consider the preferences and expectations of their audience when making creative decisions. This can sometimes lead to the perpetuation of gender stereotypes or biases in order to appeal to a wider audience or to meet certain commercial expectations.
-
-
 
 ----------------------------------------------------------------
 ## Do people prefer female characters more?
