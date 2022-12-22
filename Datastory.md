@@ -10,6 +10,7 @@ In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women 
 This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset.
 
 The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about movie characters. In addition to examining the <strong> importance </strong> of characters depending on their gender, we will also delve into the difference of presence according to the genre. Through the analysis of summaries, we can gain a deeper understanding of the description of physical and mental characteristics and actions of male and female characters in the film industry, as well as any potential lexical fields that could differentiate them. The idea is to see the evolution of the gender bias over time and to quantify this gap. 
+An additional focus is to explore the influence of women characters on the success of a film with the public. From there, it will be possible to put in parallel the point of view of the spectator and the point of view of the director.
 
 
 How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women and has there been a change over the years ? Has the role played by woman and the attributes of their characters evolves through the year ? And finally how the place of actresses evolve for the public ?
@@ -130,5 +131,6 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 ## Comparison to public sentiment 
 
+# Ceci est un test
 
 ## Conclusion
