@@ -11,21 +11,19 @@ The term "male gaze," introduced by filmmaker Laura Mulvey in 1975, refers to th
 The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how women have been portrayed in film over the past century, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the perspective of the director, who plays a key role in shaping the representation of women on screen, as well as the perspective of the audience, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
 
 Questions:
-How has gender bias in character portrayal evolved over time ? Has there been a growing interest in female characters?
+How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in film?
 
 
-This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset.
+
 
 ----------------------------------------------------------------
 
 ## Is Hollwood the most prolific film production ?
 ```
-TEXT
+This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset. The plot below shows the world distribution of the films contained in the dataset.
 ```
 {% include world_map.html %}<!--- World map--->
-```
-TEXT
-```
+We see that the USA concentrates 39% of the movies, while other countries does not exceed 10%. 
 {% include plot4.html %}<!--- Movie by decade--->
 ```
 TEXT
