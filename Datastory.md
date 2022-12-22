@@ -10,7 +10,7 @@ The term "male gaze," introduced by filmmaker Laura Mulvey in 1975, refers to th
 
 The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how women have been portrayed in film over the past century, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the perspective of the director, who plays a key role in shaping the representation of women on screen, as well as the perspective of the audience, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
 
-Questions:
+Question:
 How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in film?
 
 
@@ -21,12 +21,16 @@ How have the perspectives of both directors and audiences impacted the evolution
 ## Is Hollwood the most prolific film production ?
 ```
 This data story utilizes three datasets from the CMU Movie Summary Corpus to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of 81741 movies spanning from 1888 to 2012, while the second dataset provides information on the characters that appear in these films. The final dataset includes summaries of 20358 movies from the first dataset. The plot below illustrates the global distribution of the films included in the dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
+
 ```
 {% include world_map.html %}<!--- World map--->
+
 Our analysis shows that the United States accounts for 39% of the films in the dataset, while other countries do not exceed 10%. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the portrayal of male and female characters in American cinema in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
-The evolution 
+Our study also aims to understand the evolution of the perspectives of directors and audiences over time. To gain a fuller understanding of these dynamics, it is important to consider the distribution of movies included in the study across different decades:
+
 {% include plot4.html %}<!--- Movie by decade--->
 
+It is quite clear that there are many more films per decade from 2000, it will be necessary to take this into account for further analysis.
 ----------------------------------------------------------------
 ## Are women underrepresented?
 ```
