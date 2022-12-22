@@ -5,7 +5,7 @@ layout: default
 
 ## Abstract
 
-In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in the film industry and more broadly in visual culture. She introduced the term "male gaze" and allowed people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has evolved over the period of nearly a century. The study is based on two points of view: that of the director and that of the audience.
+In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in the film industry and more broadly in visual culture. She introduced the term "male gaze" and allowed people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has evolved over the period of nearly a century. The study is articulated around two points of view: the director and the audience.
 
 This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset.
 
@@ -14,63 +14,96 @@ An additional focus is to explore the influence of women characters on the succe
 
 
 ## Is Hollwood the most prolific film production ?
->TEXT
+```
+TEXT
+```
 {% include world_map.html %}<!--- World map--->
->TEXT
+```
+TEXT
+```
 {% include plot4.html %}<!--- Movie by decade--->
->TEXT
-
-
+```
+TEXT
+```
 
 ## Are women underrepresented?
->TEXT
+```
+TEXT
+```
 {% include Charac_decade.html %} <!--- Repartition of male/female actor--->
->TEXT
+```
+TEXT
+```
 {% include plot7.html %}<!--- Weighting of male femal charac per decade --->
->TEXT
+```
+TEXT
+```
 
 
 ## Male and female characters: depicted differently by the director?
->TEXT
+```
+TEXT
+```
 ### Women occupy as many leading roles as supporting roles
->TEXT
+```
+TEXT
+```
 {% include Charac_ranking.html %}<!--- Repartition of roles by gender --->
->TEXT
+```
+TEXT
+```
 ### Not much difference in words at first glance
->TEXT
-![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
-<!--- Wordcloud adj --->
-![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
-<!--- Wordcloud verb --->
->TEXT
+```
+TEXT
+```
+
+![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud adj --->
+
+![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
+```
+TEXT
+```
 ### Appearance of a bias by analyzing the lexical fields
->TEXT
+```
+TEXT
+```
 {% include plot10.html %}<!--- Interactive bar plot : male adj --->
 {% include plot12.html %}<!--- Interactive bar plot : female adj --->
->TEXT
+```
+TEXT
+```
 {% include plot11.html %}<!--- Interactive bar plot : male verb --->
 {% include plot13.html %}<!--- Interactive bar plot : female verb --->
->TEXT
+```
+TEXT
+```
 ### A bias that decreases with time
->TEXT
+```
+TEXT
+```
 {                        }<!--- Confusion matrix adj --->
 {                        }<!--- Confusion matrix verb --->
->TEXT
+```
+TEXT
+```
 {% include plot14.html %}<!--- PCA adj --->
 {% include plot15.html %}<!--- PCA verb --->
->TEXT
+```
+TEXT
+```
 
 
 
 ## Do people prefer female characters more?
->TEXT
+```
+TEXT
+```
 ### ??Conclusion reg??
 {                        }<!--- Reg decade--->
 {                        }<!--- Reg genre--->
->TEXT
-
-
-
+```
+TEXT
+```
 
 ## Conclusion
 
