@@ -4,15 +4,15 @@ layout: default
 ![image](/output/Intro.jpg)
 
 ----------------------------------------------------------------
-## Abstract
+<!---## Abstract--->
 
 The term "male gaze," introduced by filmmaker Laura Mulvey in 1975, refers to the way in which the visual arts, particularly film, depict the world and women from a masculine point of view. This perspective is often characterized by an objectifying and sexualizing portrayal of women, which reinforces traditional gender roles and reinforces the dominant power dynamics between men and women. Mulvey's concept of the male gaze has been influential in feminist film theory and has sparked important discussions about the representation of women in the film industry and broader visual culture.
 
-The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how women have been portrayed in film over the past century, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the perspective of the director, who plays a key role in shaping the representation of women on screen, as well as the perspective of the audience, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
+The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how women have been portrayed in film over the past century, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the <strong>perspective of the director</strong>, who plays a key role in shaping the representation of women on screen, as well as the <strong>perspective of the audience</strong>, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
 
-Question:
+<strong>
 How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in film?
-
+</strong>
 
 
 
