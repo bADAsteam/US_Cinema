@@ -40,7 +40,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 
 {% include world_map.html %}
-
+{% include plot4.html %}<!--- Movie by decade--->
 ## What can a director's point of view reveal in a summary ?
 The study aims to examine the evolution of female characters as depicted by movie directors. One way to do this is by analyzing summaries of films, as they often contain information about characters and their attributes. This can provide insight into how women have been portrayed and represented in films over time, and how this has changed or evolved. It is important to approach this analysis objectively and consider multiple perspectives, rather than relying on personal opinions or biases.
 
@@ -53,6 +53,11 @@ Here, the objective was to locate and analyze the characters within the summarie
 As part of the analysis, the number of male and female characters was tracked over time to gain a better understanding of their evolution. The goal was to determine if the number of female characters was approaching the number of male characters.
 
 {% include Charac_decade.html %}
+
+{% include plot6.html %}<!--- Number characters by decade --->
+
+{% include plot7.html %}<!--- Weighting of male femal charac per decade --->
+
 This preliminary analysis of summaries provides a quick overview of the subject matter. The main finding is that the number of female characters is roughly half the number of male characters, and there is not a clear trend over time beyond an overall increase in the number of characters. It is worth noting that, while the proportion of female characters increases after the top four characters in a movie, it is still lower than the number of male characters. 
 
 This initial analysis is a necessary first step in gaining a deeper understanding of summaries before moving on to a more complex analysis of the characteristics that define a character.
@@ -77,26 +82,22 @@ It is difficult to differentiate men and women only based on words. This might b
 #### Verb normalization
 ![image](/output/Verbs_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
+{% include plot10.html %}<!--- Male most used adj --->
+{% include plot12.html %}<!--- Female most used adj --->
+
+
+{% include plot11.html %}<!--- Male most used verb --->
+{% include plot13.html %}<!--- Female most used verb --->
+
 ## Does the genre have an impact ob the result ?
-
-
-{% include plot4.html %}<!--- ceci est un test --->
-{% include plot5.html %}<!--- ceci est un test --->
-{% include plot6.html %}<!--- ceci est un test --->
-{% include plot7.html %}<!--- ceci est un test --->
-{% include plot8.html %}<!--- ceci est un test --->
-{% include plot9.html %}<!--- ceci est un test --->
-{% include plot10.html %}<!--- ceci est un test --->
-{% include plot11.html %}<!--- ceci est un test --->
-{% include plot12.html %}<!--- ceci est un test --->
-
-{% include plot13.html %}
 
 ### Genre Repartition by Decade
 In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
 
 {% include Genre_decade.html %}
-
+{% include plot5.html %}<!--- Number movies by genre and decade --->
+{% include plot8.html %}<!--- Weighting of male female charac per genre --->
+{% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 ## Comparison to public sentiment 
 ## Use grade on each movie
 
