@@ -114,6 +114,8 @@ It is possible to predict based on adjectives (e.g. verbs) if a character is mal
 
 To simplify the understanding of the result we decide to do a PCA to 
 
+{% include plot14.html %}<!--- Male most used verb --->
+
 ## How does the genre of a movie influence the development of its characters?
 
 ### Genre Repartition by Decade
@@ -123,7 +125,7 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 {% include plot5.html %}<!--- Number movies by genre and decade --->
 {% include plot8.html %}<!--- Weighting of male female charac per genre --->
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
-## How do the characters in a movie influence public ratings and reviews?
+## Comparison to public sentiment 
 
 
 ## Conclusion
