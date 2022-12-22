@@ -34,38 +34,40 @@ It is quite clear that there are many more films per decade from 2000, it will b
 ----------------------------------------------------------------
 ## Are women underrepresented?
 Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, our study examines the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
-{% include Charac_decade.html %} <!--- Repartition of male/female actor--->
-Each decade, there are less women than men actor and this does not evolve in time 
-{% include plot7.html %}<!--- Weighting of male femal charac per decade --->
-```
-TEXT
-```
 
+{% include Charac_decade.html %} <!--- Repartition of male/female actor--->
+
+Our analysis shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the 1930s to the 2010s:
+
+| 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 20000-2010 |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
+|    36 %   |    32 %   |    30 %   |    31 %   |    30 %   |    33 %   |    34 %   |    36 %    |
+
+As we can see, the percentage of female actors remains fairly constant, hovering between 30% and 36%. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
 
 ----------------------------------------------------------------
 ## Male and female characters: depicted differently by the director?
-```
-TEXT
-```
+We analyzed the summaries of 2358 American movies from the CMU Movie Summary Corpus. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. This process was conducted for each decade between 1930 and 2010. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
+
 ### Women occupy as many leading roles as supporting roles
-```
-TEXT
-```
+To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
+{                       }<!--- Weighting of male femal charac per decade and genre (heatmap) --->
+
+In addition to go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
+
 {% include Charac_ranking.html %}<!--- Repartition of roles by gender --->
-```
-TEXT
-```
+
+Our analysis shows that women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a gender imbalance in the distribution of leading and supporting roles in films.
+
+
 ### Not much difference in words at first glance
-```
-TEXT
-```
 
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud adj --->
 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
-```
-TEXT
-```
+The most used adjectives and verbs does not display an obvious difference between men and women. Some words such as 'old', 'young', 'go', 'find' and 'tell' appears as used for women than for men.
+
+Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as "old," "young," "go," "find," and "tell," were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
 ### Appearance of a bias by analyzing the lexical fields
 ```
 TEXT
