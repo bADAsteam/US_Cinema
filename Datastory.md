@@ -71,7 +71,11 @@ The most used adjectives and verbs does not display an obvious difference betwee
 Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as ```"old," "young," "go," "find," and "tell,"``` were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
 
 ### Appearance of a bias by analyzing the lexical fields
-While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the scores for <i>194 lexical fields</i> for each decade. In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
+While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the scores for <i>194 lexical fields</i> for each decade.
+
+{% include Lexical fields for Adjectives.html %}<!--- List of adj field --->
+
+In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
 
 {% include plot10.html %}<!--- Interactive bar plot : male adj --->
 {% include plot12.html %}<!--- Interactive bar plot : female adj --->
