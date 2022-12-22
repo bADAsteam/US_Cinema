@@ -3,6 +3,8 @@ layout: default
 ---
 ## Meet our team of data scientist
 
+[comment]: <> (a reference style link.)
+
 <div class="row">
   <div class="column">
         <img src="/US_Cinema/output/AntoineLap.jpeg" alt="image1" style="width:100%">
