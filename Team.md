@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-[comment]: <> (a reference style link.)
-
 ## Meet our team of data scientist
-
 
 <div class="row">
   <div class="column">
