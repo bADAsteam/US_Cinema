@@ -97,6 +97,13 @@ In order to have a better understanding of the characteristics that are typicall
 
 ### Predicting a character's gender based on adjectives or verbs
 It is possible to predict based on adjectives (e.g. verbs) if a character is male or female. A random forest algorithm was used to classify text samples as male or female. 100 samples were generated for each gender, consisting of 50 randomly selected adjectives or verbs from decade-specific lists of words. These samples were analyzed using a lexical method called empath, resulting in 100 vectors for each gender with 194 features. The labels for the vectors were binary, with <strong>male</strong> represented as <strong>1</strong> and <strong>female</strong> represented as <strong>0</strong>. The random forest algorithm was applied to the resulting 200 vectors, and the importance of each feature was extracted.
+
+![image](/output/Acc_adj.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+![image](/output/ACC_verb.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+To simplify the understanding of the result we decide to do a PCA to 
+
 ## Does the genre have an impact ob the result ?
 
 ### Genre Repartition by Decade
