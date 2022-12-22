@@ -3,15 +3,18 @@ layout: default
 ---
 ![image](/output/Intro.jpg)
 
+----------------------------------------------------------------
 ## Abstract
 
 In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in the film industry and more broadly in visual culture. She introduced the term "male gaze" and allowed people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has evolved over the period of nearly a century. The study is articulated around two points of view: the director and the audience.
 
+Questions:
+How has gender bias in character portrayal evolved over time ? Has there been a growing interest in female characters?
+
+
 This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset.
 
-The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about movie characters. In addition to examining the <strong> importance </strong> of characters depending on their gender, we will also delve into the difference of presence according to the genre. Through the analysis of summaries, we can gain a deeper understanding of the description of physical and mental characteristics and actions of male and female characters in the film industry, as well as any potential lexical fields that could differentiate them. The idea is to see the evolution of the gender bias over time and to quantify this gap. 
-An additional focus is to explore the influence of women characters on the success of a film with the public. From there, it will be possible to put in parallel the point of view of the spectator and the point of view of the director.
-
+----------------------------------------------------------------
 
 ## Is Hollwood the most prolific film production ?
 ```
@@ -25,7 +28,7 @@ TEXT
 ```
 TEXT
 ```
-
+----------------------------------------------------------------
 ## Are women underrepresented?
 ```
 TEXT
@@ -40,7 +43,7 @@ TEXT
 ```
 
 
-## Male and female characters: depicted differently by the director?
+----------------------------------------------------------------## Male and female characters: depicted differently by the director?
 ```
 TEXT
 ```
@@ -93,7 +96,7 @@ TEXT
 ```
 
 
-
+----------------------------------------------------------------
 ## Do people prefer female characters more?
 ```
 TEXT
@@ -104,8 +107,11 @@ TEXT
 ```
 TEXT
 ```
-
+----------------------------------------------------------------
 ## Conclusion
+----------------------------------------------------------------A METTRE DANS README:
+The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about movie characters. In addition to examining the <strong> importance </strong> of characters depending on their gender, we will also delve into the difference of presence according to the genre. Through the analysis of summaries, we can gain a deeper understanding of the description of physical and mental characteristics and actions of male and female characters in the film industry, as well as any potential lexical fields that could differentiate them. The idea is to see the evolution of the gender bias over time and to quantify this gap. 
+An additional focus is to explore the influence of women characters on the success of a film with the public. From there, it will be possible to put in parallel the point of view of the spectator and the point of view of the director.
 
 
 |:-------------------------------------------------------------------------------------------------------------------------------------------
