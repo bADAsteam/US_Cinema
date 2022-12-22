@@ -33,13 +33,9 @@ Our study also aims to understand the evolution of the perspectives of directors
 It is quite clear that there are many more films per decade from 2000, it will be necessary to take this into account for further analysis.
 ----------------------------------------------------------------
 ## Are women underrepresented?
-```
-TEXT
-```
+Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, our study examines the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
 {% include Charac_decade.html %} <!--- Repartition of male/female actor--->
-```
-TEXT
-```
+
 {% include plot7.html %}<!--- Weighting of male femal charac per decade --->
 ```
 TEXT
