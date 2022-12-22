@@ -3,7 +3,7 @@ layout: default
 ---
 ![image](/output/Intro.jpg)
 
-
+## Abstract
 
 In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in the film industry and more broadly in visual culture. She introduced the term "male gaze" and allowed people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has evolved over the period of nearly a century. The study is based on two points of view: that of the director and that of the audience.
 
@@ -13,11 +13,96 @@ The central focus of this project is to thoroughly analyze movie summaries, whic
 An additional focus is to explore the influence of women characters on the success of a film with the public. From there, it will be possible to put in parallel the point of view of the spectator and the point of view of the director.
 
 
-<>How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women <>and has there been a change over the years ? Has the role played by woman and the attributes of their <>characters evolves through the year ? And finally how the place of actresses evolve for the public ?
-
-
 ## Is Hollwood the most prolific film production ?
+>TEXT
+{% include world_map.html %}<!--- World map--->
+>TEXT
+{% include plot4.html %}<!--- Movie by decade--->
+>TEXT
 
+
+
+## Are women underrepresented?
+>TEXT
+{% include Charac_decade.html %} <!--- Repartition of male/female actor--->
+>TEXT
+{% include plot7.html %}<!--- Weighting of male femal charac per decade --->
+>TEXT
+
+
+## Male and female characters: depicted differently by the director?
+>TEXT
+### Women occupy as many leading roles as supporting roles
+>TEXT
+{% include Charac_ranking.html %}<!--- Repartition of roles by gender --->
+>TEXT
+### Not much difference in words at first glance
+>TEXT
+![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
+<!--- Wordcloud adj --->
+![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}
+<!--- Wordcloud verb --->
+>TEXT
+### Appearance of a bias by analyzing the lexical fields
+>TEXT
+{% include plot10.html %}<!--- Interactive bar plot : male adj --->
+{% include plot12.html %}<!--- Interactive bar plot : female adj --->
+>TEXT
+{% include plot11.html %}<!--- Interactive bar plot : male verb --->
+{% include plot13.html %}<!--- Interactive bar plot : female verb --->
+>TEXT
+### A bias that decreases with time
+>TEXT
+{                        }<!--- Confusion matrix adj --->
+{                        }<!--- Confusion matrix verb --->
+>TEXT
+{% include plot14.html %}<!--- PCA adj --->
+{% include plot15.html %}<!--- PCA verb --->
+>TEXT
+
+
+
+## Do people prefer female characters more?
+>TEXT
+### ??Conclusion reg??
+{                        }<!--- Reg decade--->
+{                        }<!--- Reg genre--->
+>TEXT
+
+
+
+
+## Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Do people prefer female characters more?
 
 Country                      |	code |	Number_of_movie |	Percent | Number of act | Male acting | Female acting |
 |:---------------------------|:------|:-----------------|:----------|:--------------|:------------|:--------------|	
@@ -39,10 +124,10 @@ Thanks to a preliminary study, it has been chosen to focus on American movies in
 {% include plot4.html %}<!--- Movie by decade--->
 
 
-## What can a director's point of view reveal in a summary ?
+## Are women underrepresented?
 The study aims to examine the evolution of female characters as depicted by movie directors. One way to do this is by analyzing summaries of films, as they often contain information about characters and their attributes. This can provide insight into how women have been portrayed and represented in films over time, and how this has changed or evolved. It is important to approach this analysis objectively and consider multiple perspectives, rather than relying on personal opinions or biases.
 
-### Who are the characters that can be found within summaries?
+
 Here, the objective was to locate and analyze the characters within the summaries in order to determine the main character. A Machine Learning algorithm is used to extract all characters from summaries by identifying and linking pronouns to their corresponding names. This process results in a list of characters for each movie, which is then ranked to identify the main character. It also make differenciation between male and female character.
 
 {% include Charac_ranking.html %}
@@ -124,6 +209,11 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 {% include plot5.html %}<!--- Number movies by genre and decade --->
 {% include plot8.html %}<!--- Weighting of male female charac per genre --->
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
+
 ## Comparison to public sentiment 
+
+### Public source
+
+### Linear regression
 
 ## Conclusion
