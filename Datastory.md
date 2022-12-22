@@ -88,6 +88,7 @@ Now that we have observed differences in the way male and female characters are 
 
 Two notable observations can be made from our analysis:
 * The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> (between <i>96% and 100%</i>), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
+
 * The false p and false n ??????????
 These findings highlight the potential changes in language use in portraying gender bias in film over time, but further research is needed to fully understand these dynamics.
 
