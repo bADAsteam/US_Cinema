@@ -94,8 +94,9 @@ These findings highlight the potential changes in language use in portraying gen
 
 After identifying the important features, we used them to reduce the dimensionality of the vectors. To further reduce the dimensionality, we applied principal component analysis (PCA) on each decade to compare the distance between male and female character points. This will allow us to visualize the relationships between male and female characters and see how they have changed over time.
 
-{% include plot14.html %}<!--- PCA adj --->
-{% include plot14.html %}<!--- PCA verb --->
+{% include PCA_adjectives.html %}<!--- PCA adj --->
+
+{% include PCA_verbs.html %}<!--- PCA verb --->
 
 When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between 1930 and 1970, making it difficult to draw any meaningful conclusions. However, after 1970, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
