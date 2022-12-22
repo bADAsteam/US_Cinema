@@ -62,7 +62,7 @@ This preliminary analysis of summaries provides a quick overview of the subject 
 
 This initial analysis is a necessary first step in gaining a deeper understanding of summaries before moving on to a more complex analysis of the characteristics that define a character.
 
-## How are character are linked to ?
+## What makes a character unique?
 
 Preliminary exploration of the summaries has simplified the analysis of character. The ML algorithm changes all pronouns to the names they are linked to. As a result, a NLP was conducted on all summaries to understand how characters are characterized, resulting in a list of adjectives and verbs summarized by a mean score.
 
@@ -114,7 +114,7 @@ It is possible to predict based on adjectives (e.g. verbs) if a character is mal
 
 To simplify the understanding of the result we decide to do a PCA to 
 
-## Does the genre have an impact ob the result ?
+## How does the genre of a movie influence the development of its characters?
 
 ### Genre Repartition by Decade
 In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
@@ -123,8 +123,8 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 {% include plot5.html %}<!--- Number movies by genre and decade --->
 {% include plot8.html %}<!--- Weighting of male female charac per genre --->
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
-## Comparison to public sentiment 
-## Use grade on each movie
+## How do the characters in a movie influence public ratings and reviews?
+
 
 ## Conclusion
 
