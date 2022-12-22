@@ -114,7 +114,8 @@ It is possible to predict based on adjectives (e.g. verbs) if a character is mal
 
 To simplify the understanding of the result we decide to do a PCA to 
 
-{% include plot14.html %}<!--- Male most used verb --->
+{% include plot14.html %}<!--- PCA adj --->
+{% include plot15.html %}<!--- PCA verb --->
 
 ## How does the genre of a movie influence the development of its characters?
 
