@@ -82,9 +82,9 @@ It is difficult to differentiate men and women only based on words. This might b
 #### Verb normalization
 ![image](/output/Verbs_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-Normalization of the verbs shows that the most frequently used verbs are the same for both male and female characters in the movie. These verbs describe the actions taken by the characters rather than their characteristics or personality traits.
+Normalization of the verbs shows that the most frequently used verbs are the same for both male and female characters in the movie. These verbs describe the <i>actions taken</i> by the characters rather than their characteristics or personality traits.
 
-Furthermore, the normalization of adjectives also reveals a similarity between males and females for the first few adjectives, which pertain to age ("children, youth, ancient"). However, as the list continues, the adjectives begin to differentiate and characterize males and females, such as "violent," "attractive," "wealthy," and "beautiful.
+Furthermore, the normalization of adjectives also reveals a similarity between males and females for the first few adjectives, which pertain to age ("children, youth, ancient"). However, as the list continues, the adjectives begin to differentiate and characterize males and females, such as <i>"violent," "attractive," "wealthy," and "beautiful</i>.
 
 In order to have a better understanding of the characteristics that are typically associated with male and female characters in movies, we found it interesting to examine the inverse intersection of both male and female normalization adjectives (e.g. verbs that are typically used to describe male and female characters). This will allow us to examine how these characters are typically portrayed in films and how these portrayals may reinforce or challenge societal gender norms.
 #### Inverse of the intersect
