@@ -211,6 +211,7 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 
 ## Comparison to public sentiment 
+As a final analysis we wonder
 
 ### Public source
 
