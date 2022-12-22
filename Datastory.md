@@ -16,13 +16,7 @@ An additional focus is to explore the influence of women characters on the succe
 <>How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women <>and has there been a change over the years ? Has the role played by woman and the attributes of their <>characters evolves through the year ? And finally how the place of actresses evolve for the public ?
 
 
-
-
-
 ## Is Hollwood the most prolific film production ?
-
-
-
 
 
 Country                      |	code |	Number_of_movie |	Percent | Number of act | Male acting | Female acting |
