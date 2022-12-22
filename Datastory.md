@@ -78,6 +78,7 @@ It is difficult to differentiate men and women only based on words. This might b
 ![image](/output/Verbs_frequency.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Does the genre have an impact ob the result ?
+<!--- ceci est un test --->
 
 {% include plot4.html %}
 {% include plot5.html %}
