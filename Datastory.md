@@ -38,7 +38,7 @@ Upon initial analysis, it may not be immediately evident whether there is a diff
 
 Our analysis shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the 1930s to the 2010s:
 
-| 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 20000-2010 |
+| 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 2000-2010 |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
 |    36 %   |    32 %   |    30 %   |    31 %   |    30 %   |    33 %   |    34 %   |    36 %    |
 
@@ -46,7 +46,7 @@ As we can see, the percentage of female actors remains fairly constant, hovering
 
 ----------------------------------------------------------------
 ## Male and female characters: depicted differently by the director?
-We analyzed the summaries of 2358 American movies from the CMU Movie Summary Corpus. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. This process was conducted for each decade between 1930 and 2010. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
+We analyzed the summaries of 2358 American movies from the CMU Movie Summary Corpus. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Our analysis suggests that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between 1930 and 2010. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
 
 ### Women occupy as many leading roles as supporting roles
 To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
@@ -81,18 +81,19 @@ It is quite clear that lexical fields such as "kill," "heroic," "fight," and "ne
 
 ### A bias that decreases with time
 Now that we have observed differences in the way male and female characters are characterized in film using specific language, it would be interesting to further investigate the factors that contribute to these differences and whether they have changed over time. To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
-{                        }<!--- Confusion matrix adj --->
-{                        }<!--- Confusion matrix verb --->
+{                        }<!--- Confusion matrix adj interactif --->
+{                        }<!--- Confusion matrix verb interactif --->
 
 It is interesting to notice two things: 
--The accuracy 
+- The accuracy TREND ??
+- The false p and false n ??
 
+After identifying the important features, we used them to reduce the dimensionality of the vectors. To further reduce the dimensionality, we applied principal component analysis (PCA) on each decade to compare the distance between male and female character points. This will allow us to visualize the relationships between male and female characters and see how they have changed over time.
 
 {% include plot14.html %}<!--- PCA adj --->
 {% include plot15.html %}<!--- PCA verb --->
-```
-TEXT
-```
+
+When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between 1930 and 1970, making it difficult to draw any meaningful conclusions. However, after 1970, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
 
 ----------------------------------------------------------------
