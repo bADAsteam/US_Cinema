@@ -24,8 +24,8 @@ This data story utilizes three datasets from the <i>CMU Movie Summary Corpus</i>
 
 {% include world_map.html %}<!--- World map--->
 
-Our analysis shows that the United States accounts for <i>39%</i> of the films in the dataset, while other countries do not exceed <i>10%</i>. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the portrayal of male and female characters in American cinema in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
-Our study also aims to understand the evolution of the perspectives of directors and audiences over time. To gain a fuller understanding of these dynamics, it is important to consider the distribution of movies included in the study across different decades:
+Our analysis shows that the United States accounts for <i>39%</i> of the films in the dataset, while other countries do not exceed <i>10%</i>. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <i>portrayal of male and female characters in American cinema</i> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
+Our study also aims to understand the evolution of the perspectives of directors and audiences over time. To gain a fuller understanding of these dynamics, it is important to consider the <i>distribution of movies</i> included in the study across different decades:
 
 {% include plot4.html %}<!--- Movie by decade--->
 
@@ -34,24 +34,25 @@ It is quite clear that there are many more films per decade from 2000, it will b
 ----------------------------------------------------------------
 ## Are women underrepresented?
 Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, our study examines the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
+<!---C'est pas le graph de repartition des main roles ca --->
 
 {% include Charac_decade.html %} <!--- Repartition of male/female actor--->
 
-Our analysis shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the 1930s to the 2010s:
+Our analysis shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i>:
 
 | 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 2000-2010 |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
 |    36 %   |    32 %   |    30 %   |    31 %   |    30 %   |    33 %   |    34 %   |    36 %    |
 
-As we can see, the percentage of female actors remains fairly constant, hovering between 30% and 36%. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
+As we can see, the percentage of female actors remains fairly constant, hovering between <i>30%</i> and <i>36%</i>. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
 
 ----------------------------------------------------------------
 ## Male and female characters: depicted differently by the director?
-We analyzed the summaries of 2358 American movies from the CMU Movie Summary Corpus. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Our analysis suggests that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between 1930 and 2010. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
+We analyzed the summaries of <i>2358</i> American movies from the <i>CMU Movie Summary Corpus</i>. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Our analysis suggests that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between <i>1930 and 2010</i>. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
 
 ### Women occupy as many leading roles as supporting roles
 To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
-{                       }<!--- Weighting of male femal charac per decade and genre (heatmap) --->
+{% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 
 In addition to go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
 
