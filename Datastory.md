@@ -83,8 +83,8 @@ It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and 
 
 ### A bias that decreases with time
 Now that we have observed differences in the way male and female characters are characterized in film using specific language, it would be interesting to further investigate the factors that contribute to these differences and whether they have changed over time. To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
-{                        }<!--- Confusion matrix adj interactif --->
-{                        }<!--- Confusion matrix verb interactif --->
+{% include plot15.html %}<!--- Confusion matrix adj interactif --->
+{% include plot16.html %}<!--- Confusion matrix verb interactif --->
 
 Two notable observations can be made from our analysis:
 -The accuracy of adjectives in differentiating male and female characters remains fairly constant between 1930 and 1970 (between 96% and 100%), but decreases thereafter until reaching 80% in 2000-2010. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
