@@ -5,11 +5,11 @@ layout: default
 
 # Introduction
 
-In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in film industry and more broadly in visual culture. She introduced the term "male gaze" and allow people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has changed over the period of nearly a century.
+In 1975, the filmmaker Laura Muley highlighted the underrepresentation of women in the film industry and more broadly in visual culture. She introduced the term "male gaze" and allowed people to question the place of women in the cinema industry. The American cinema industry played a strong role on the western society and appears as a good area of study to examine how women's representation has evolved over the period of nearly a century. The study is based on two points of view: that of the director and that of the audience.
 
-This datastory begins with a trio of datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1915 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of the movies in the first dataset
+This datastory begins with three datasets from the <strong>CMU Movie Summary Corpus</strong>: the first dataset includes information on 81741 movies from 1888 to 2012, the second dataset features information on the characters who appeared in these movies, and the final dataset includes summaries of 20358 movies in the first dataset.
 
-The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about the films. In addition to examining the <strong>main character</strong> and other key details, we will also delve into the representation of <strong>male and female actors in the movies</strong>. Through the analysis of summaries, we can gain a deeper understanding of the roles and portrayal of male and female characters in the film industry, as well as any potential biases or trends in the depiction of these characters.
+The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about movie characters. In addition to examining the <strong> importance </strong> of characters depending on their gender, we will also delve into the difference of presence according to the genre. Through the analysis of summaries, we can gain a deeper understanding of the description of physical and mental characteristics and actions of male and female characters in the film industry, as well as any potential lexical fields that could differentiate them. The idea is to see the evolution of the gender bias over time and to quantify this gap. 
 
 
 How has the women places evolves in the US cinema industry ? Does the cinema represent more men than women and has there been a change over the years ? Has the role played by woman and the attributes of their characters evolves through the year ? And finally how the place of actresses evolve for the public ?
@@ -24,7 +24,9 @@ Given all of these factors, several questions come to mind:
 
 ## The world of cinema through American eyes ?
 
-Thanks to a preliminary study, it has been chosen to focus on American movies in the global cinema industry. This focus is appropriate for this case because Hollywood has produced half of the movies made worldwide and has the largest pool of acting talent.
+Thanks to a preliminary study, it has been chosen to focus on American movies in the global cinema industry. This focus is appropriate for this case because Hollywood has produced almost half of the movies in the dataset and has the largest pool of acting talent.
+
+
 
 Country                      |	code |	Number_of_movie |	Percent | Number of act | Male acting | Female acting |
 |:---------------------------|:------|:-----------------|:----------|:--------------|:------------|:--------------|	
@@ -130,7 +132,3 @@ In parallel to analyzing the evolution of characters, we also examined whether t
 
 
 ## Conclusion
-
-
-
-
