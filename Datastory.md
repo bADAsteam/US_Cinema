@@ -19,10 +19,9 @@ How have the perspectives of both directors and audiences impacted the evolution
 ----------------------------------------------------------------
 
 ## Is Hollwood the most prolific film production ?
-```
+
 This data story utilizes three datasets from the CMU Movie Summary Corpus to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of 81741 movies spanning from 1888 to 2012, while the second dataset provides information on the characters that appear in these films. The final dataset includes summaries of 20358 movies from the first dataset. The plot below illustrates the global distribution of the films included in the dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
 
-```
 {% include world_map.html %}<!--- World map--->
 
 Our analysis shows that the United States accounts for 39% of the films in the dataset, while other countries do not exceed 10%. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the portrayal of male and female characters in American cinema in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
@@ -77,7 +76,7 @@ While analyzing individual words can provide useful insights, examining lexical 
 {% include plot11.html %}<!--- Interactive bar plot : male verb --->
 {% include plot13.html %}<!--- Interactive bar plot : female verb --->
 
-It is quite clear that lexical fields such as "kill," "heroic," "fight," and "negative_emotion" are more commonly associated with men, while lexical fields such as "beauty," "attractive," "appearance," and "pain" are more commonly associated with women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
+It is quite clear that lexical fields such as "kill," "heroic," "fight," and "negative_emotion" are more commonly associated with men, while lexical fields such as "beauty," "attractive," "appearance," and "pain" are more commonly associated with women. Additionally, some less expected lexical fields, such as "shape_and_size" and "childish" for men and "white_collar_job" and "royalty" for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
 ### A bias that decreases with time
 ```
 TEXT
