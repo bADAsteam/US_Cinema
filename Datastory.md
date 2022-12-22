@@ -79,6 +79,18 @@ It is difficult to differentiate men and women only based on words. This might b
 
 ## Does the genre have an impact ob the result ?
 
+{% include plot4.html %}
+{% include plot5.html %}
+{% include plot6.html %}
+{% include plot7.html %}
+{% include plot8.html %}
+{% include plot9.html %}
+{% include plot10.html %}
+{% include plot11.html %}
+{% include plot12.html %}
+
+{% include plot13.html %}
+
 ### Genre Repartition by Decade
 In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
 
