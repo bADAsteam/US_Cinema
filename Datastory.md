@@ -67,6 +67,7 @@ Our analysis shows that women are equally likely to occupy leading roles as seco
 The most used adjectives and verbs does not display an obvious difference between men and women. Some words such as 'old', 'young', 'go', 'find' and 'tell' appears as used for women than for men.
 
 Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as "old," "young," "go," "find," and "tell," were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
+
 ### Appearance of a bias by analyzing the lexical fields
 While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the scores for 194 lexical fields for each decade. In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
 
@@ -77,15 +78,16 @@ While analyzing individual words can provide useful insights, examining lexical 
 {% include plot13.html %}<!--- Interactive bar plot : female verb --->
 
 It is quite clear that lexical fields such as "kill," "heroic," "fight," and "negative_emotion" are more commonly associated with men, while lexical fields such as "beauty," "attractive," "appearance," and "pain" are more commonly associated with women. Additionally, some less expected lexical fields, such as "shape_and_size" and "childish" for men and "white_collar_job" and "royalty" for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
+
 ### A bias that decreases with time
-```
-TEXT
-```
+Now that we have observed differences in the way male and female characters are characterized in film using specific language, it would be interesting to further investigate the factors that contribute to these differences and whether they have changed over time. To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
 {                        }<!--- Confusion matrix adj --->
 {                        }<!--- Confusion matrix verb --->
-```
-TEXT
-```
+
+It is interesting to notice two things: 
+-The accuracy 
+
+
 {% include plot14.html %}<!--- PCA adj --->
 {% include plot15.html %}<!--- PCA verb --->
 ```
@@ -106,7 +108,27 @@ TEXT
 ```
 ----------------------------------------------------------------
 ## Conclusion
-----------------------------------------------------------------A METTRE DANS README:
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A METTRE DANS README:
 The central focus of this project is to thoroughly analyze movie summaries, which hold a vast amount of information about movie characters. In addition to examining the <strong> importance </strong> of characters depending on their gender, we will also delve into the difference of presence according to the genre. Through the analysis of summaries, we can gain a deeper understanding of the description of physical and mental characteristics and actions of male and female characters in the film industry, as well as any potential lexical fields that could differentiate them. The idea is to see the evolution of the gender bias over time and to quantify this gap. 
 An additional focus is to explore the influence of women characters on the success of a film with the public. From there, it will be possible to put in parallel the point of view of the spectator and the point of view of the director.
 
