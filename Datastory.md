@@ -144,14 +144,16 @@ In order to understand the audience's interest in female characters as main prot
 
 
 ### No preference observed 
-To investigate the relationship between the gender of the hero and the review score of the movie, we proceeded to a matching of male and female hero films and conducted a linear regression analysis.
+To investigate the relationship between the gender of the hero and the review score of the movie, we proceeded to a matching of male and female hero films and conducted a <strong>linear regression analysis</strong>.
 
 
  
  <center>
   <strong>  Regression Results </strong>
  </center>
+
 ==================================================
+
 |           | Value of the coefficient | p-value |
 |-----------|--------------------------|---------|
 |   gender  |          52.908          |  0.000  |   
@@ -160,7 +162,7 @@ To investigate the relationship between the gender of the hero and the review sc
 
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
-It appears that the public does not show a preference for films with either a female or male hero.
+It appears that <the public does not show a preference for films with either a female or male hero.
 
 
 ## Conclusion
