@@ -60,13 +60,14 @@ As says before we wanted to look at the "director point of view". For this, we a
 
 ### Women occupy as many leading roles as supporting roles
 To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
+
 {% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 
 In addition to go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
 
 {% include Charac_ranking.html %}<!--- Repartition of roles by gender --->
 
-Our analysis shows that women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a gender imbalance in the distribution of leading and supporting roles in films.
+As we can see, women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a gender imbalance in the distribution of leading and supporting roles in films.
 
 
 ### Not much difference in words at first glance
@@ -74,7 +75,6 @@ Our analysis shows that women are equally likely to occupy leading roles as seco
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud adj --->
 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
-The most used adjectives and verbs does not display an obvious difference between men and women. Some words such as ```'old', 'young', 'go', 'find' and 'tell'``` appears as used for women than for men.
 
 Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as ```"old," "young," "go," "find," and "tell,"``` were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
 
