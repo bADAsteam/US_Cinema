@@ -6,12 +6,14 @@ layout: default
 ----------------------------------------------------------------
 <!---## Abstract--->
 
+## The background
+
 The term "male gaze," introduced by filmmaker Laura Mulvey in 1975, refers to the way in which the visual arts, particularly film, depict the world and women from a masculine point of view. This perspective is often characterized by an objectifying and sexualizing portrayal of women, which reinforces traditional gender roles and reinforces the dominant power dynamics between men and women. Mulvey's concept of the male gaze has been influential in feminist film theory and has sparked important discussions about the representation of women in the film industry and broader visual culture.
 
 The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how <strong>women have been portrayed in film over the past century</strong>, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the <strong>perspective of the director</strong>, who plays a key role in shaping the representation of women on screen, as well as the <strong>perspective of the audience</strong>, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
 
 <strong><i>
-How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in film?
+How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in Hollywood movies?
 </i></strong>
 
 ----------------------------------------------------------------
@@ -39,7 +41,7 @@ The number of movies produced at the end of the 20th century significantly incre
 Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, we move to look at the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
 <!---C'est pas le graph de repartition des main roles ca --->
 
-{% include Charac_decade.html %} <!--- Repartition of male/female actor--->
+{% include Repartition_of_male_and_female_main_actor_per_decade.html %} <!--- Repartition of male/female actor--->
 
 It shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i> :
 
@@ -58,11 +60,11 @@ As says before we wanted to look at the "director point of view". For this, we a
 ### Women occupy as many leading roles as supporting roles
 To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
 
-{% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
+{% include weighting_male_female_genre_decade.html %}<!--- Weightin male femal charac per decade and genre --->
 
 In addition to go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
 
-{% include Charac_ranking.html %}<!--- Repartition of roles by gender --->
+{% include Repartition_of_roles_per_gender.html %}<!--- Repartition of roles by gender --->
 
 As we can see, women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a gender imbalance in the distribution of leading and supporting roles in films.
 
@@ -82,11 +84,11 @@ While analyzing individual words can provide useful insights, examining lexical 
 
 In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
 
-{% include plot10.html %}<!--- Interactive bar plot : male adj --->
-{% include plot12.html %}<!--- Interactive bar plot : female adj --->
+{% include males_adjectives.html %}<!--- Interactive bar plot : male adj --->
+{% include female_adjectives.html %}<!--- Interactive bar plot : female adj --->
 
-{% include plot11.html %}<!--- Interactive bar plot : male verb --->
-{% include plot13.html %}<!--- Interactive bar plot : female verb --->
+{% include male_verbs.html %}<!--- Interactive bar plot : male verb --->
+{% include female_verbs.html %}<!--- Interactive bar plot : female verb --->
 
 It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty," "attractive," "appearance," and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"shape_and_size" and "childish"``` for men and ```"white_collar_job" and "royalty"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
 
@@ -97,8 +99,8 @@ Now that we have observed differences in the way male and female characters are 
 
 To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
 
-{% include plot15.html %}<!--- Confusion matrix adj interactif --->
-{% include plot16.html %}<!--- Confusion matrix verb interactif --->
+{% include Confusion_matrix_for_adjectives.html %}<!--- Confusion matrix adj interactif --->
+{% include Confusion_matrix_for_verbs.html %}<!--- Confusion matrix verb interactif --->
 
 Two notable observations can be made from our analysis:
 * The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> (between <i>96% and 100%</i>), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
@@ -109,9 +111,9 @@ These findings highlight the potential changes in language use in portraying gen
 
 After identifying the important features, we used them to reduce the dimensionality of the vectors. To further reduce the dimensionality, we applied <i>Principal Component Analysis</i> (PCA) on each decade to compare the distance between male and female character points. This will allow us to visualize the relationships between male and female characters and see how they have changed over time.
 
-{% include PCA_adjectives.html %}<!--- PCA adj --->
+{% include PCA_2D_projection_of_10_most_important_features_per_decade_for_Adjectives.html %}<!--- PCA adj --->
 
-{% include PCA_verbs.html %}<!--- PCA verb --->
+{% include PCA_2D_projection_of_10_most_important_features_per_decade_for_verbs.html %}<!--- PCA verb --->
 
 When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
@@ -123,7 +125,7 @@ However, it is also important to consider the audience when analyzing a film for
 ## Do people prefer female characters more?
 In order to understand the audience's interest in female characters as main protagonists, we collected data on the ratings given to films by audiences from Wikidata. By examining the relationship between these ratings and the occupation of main roles by women, we can gain valuable insight into how the audience's preferences for female heroes have changed over time. This analysis will allow us to better understand the representation of women in film and how it has evolved over time.
 
-### 
+### Linear regression
 ```
 
    OLS Regression Results                            
