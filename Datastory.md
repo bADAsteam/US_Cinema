@@ -50,6 +50,8 @@ In each decade, there are fewer female actors than male actors, and this trend d
 |   39 %  |   35 %  |   36 %  |   32 %  |   30 %  |   31 %  |   30 %  |    33 % |   34 %  |   36 %  |
 
 The percentage of women on screen has followed a U-shaped pattern over the past century. It decreased slightly from 1910 to 1980, reaching a low of around 30% during this time period. However, it has been on the rise since 1980. The period between 1950 and 1980 saw the lowest representation of women.
+
+
 ----------------------------------------------------------------
 
 ## Male and female characters: depicted differently by the director?
@@ -106,9 +108,9 @@ To identify the most distinguishing features of each decade, we applied a random
 {% include Confusion_matrix_for_verbs.html %}<!--- Confusion matrix verb interactif --->
 
 Two notable observations can be made from our analysis:
-* The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> (between <i>96% and 100%</i>), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
+* The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> ( between <i>96% and 100%</i> ), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
 
-* The false p and false n ??????????
+* It is interesting to notice  The false p and false n ??????????
 
 These findings highlight the potential changes in language use in portraying gender bias in film over time, but further research is needed to fully understand these dynamics.
 
