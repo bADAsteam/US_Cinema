@@ -20,12 +20,17 @@ How have the perspectives of both directors and audiences impacted the evolution
 
 ## Is Hollwood the most prolific film production ?
 
-This data story utilizes three datasets from the <i>CMU Movie Summary Corpus</i> to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of <i>81741 movies</i> spanning from <i>1888 to 2012</i>, while the second dataset provides information on the characters that appear in these films. The final dataset includes <i>summaries of 20358 movies</i> from the first dataset. The plot below illustrates the global distribution of the films included in the dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
+This data story starts with three datasets from the <i>CMU Movie Summary Corpus</i> to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of <i>81741 movies</i> spanning from <i>1888 to 2012</i>, while the second dataset provides information on the characters that appear in these films. The final dataset includes <i>summaries of 20358 movies</i> from the first dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
+
+Initially, we aim to analyze the distribution of movies across the globe and observe their evolution over time. 
 
 {% include world_map.html %}<!--- World map--->
 
-Our analysis shows that the United States accounts for <i>39%</i> of the films in the dataset, while other countries do not exceed <i>10%</i>. This suggests that the United States plays a central role in the global film industry. However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <i>portrayal of male and female characters in American cinema</i> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
-Our study also aims to understand the evolution of the perspectives of directors and audiences over time. To gain a fuller understanding of these dynamics, it is important to consider the <i>distribution of movies</i> included in the study across different decades:
+It appears that the United States accounts for <i>39%</i> of the films in the dataset, while other countries do not exceed <i>10%</i>. This suggests that the United States plays a central role in the global film industry. Taking a step back, it is logical that Hollywood is the biggest movie industry in the world. This is due to the fact that Hollywood has a long history of producing high-quality films that appeal to a wide range of audiences, and it has a strong reputation for innovation and creativity in the film industry.
+
+However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <i> portrayal of male and female characters in American cinema</i> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
+
+As a second point we decide to explore the evolution of the <i>distribution of movies</i> included in the study across different decades. It will give us insight of the perspectives of directors and audiences over time.
 
 {% include plot4.html %}<!--- Movie by decade--->
 
