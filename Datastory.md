@@ -151,7 +151,9 @@ To investigate the relationship between the gender of the hero and the review sc
 <center>
   <strong>  Regression Results </strong>
 </center>
-<table class="centrer">
+
+
+<table align="center">
     <thead>
         <tr>
         <th>      </th>
