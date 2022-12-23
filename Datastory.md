@@ -39,7 +39,7 @@ The number of movies produced at the end of the 20th century significantly incre
 
 ## Are women underrepresented?
 Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, we move to look at the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
-<!---C'est pas le graph de repartition des main roles ca --->
+
 
 {% include Repartition_of_male_and_female_main_actor_per_decade.html %} <!--- Repartition of male/female actor--->
 
