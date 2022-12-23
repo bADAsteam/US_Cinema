@@ -29,7 +29,7 @@ It appears that the United States accounts for 39% of the films in the dataset, 
 
 However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <strong> portrayal of male and female characters in American cinema</strong> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
 
-As a second point we decide to explore the evolution of the <strong>distribution of movies</strong> included in the study across different decades. It will give us insight of the perspectives of directors and audiences over time.
+As a second point we decide to explore the evolution of the distribution of movies included in the study across different decades. It will give us insight of the perspectives of directors and audiences over time.
 
 {% include movie_by_year_usa.html %}<!--- Movie by decade--->
 
@@ -182,7 +182,7 @@ It appears that <strong>the public does not show a preference</strong> for films
 In conclusion, <strong>the perspectives of directors have had a significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
 
 ### See you in the...
-
+![image](/output/meme.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
