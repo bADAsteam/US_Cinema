@@ -86,7 +86,7 @@ Upon examining the most commonly used adjectives and verbs associated with male 
 While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the relative scores for <i>194 lexical fields</i> for each decade.
 
 
-![image](/output/Lexical_fields_for_Adjectives.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![image](/output/Lexical_fields_for_Adjectives.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
