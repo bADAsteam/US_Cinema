@@ -84,7 +84,7 @@ While analyzing individual words can provide useful insights, examining lexical 
 
 In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
 
-{% include males_adjectives.html %}<!--- Interactive bar plot : male adj --->
+{% include male_adjectives.html %}<!--- Interactive bar plot : male adj --->
 {% include female_adjectives.html %}<!--- Interactive bar plot : female adj --->
 
 {% include male_verbs.html %}<!--- Interactive bar plot : male verb --->
