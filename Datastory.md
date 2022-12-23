@@ -33,7 +33,7 @@ As a second point we decide to explore the evolution of the <i>distribution of m
 
 {% include plot4.html %}<!--- Movie by decade--->
 
-The number of movies produced at the end of the 20th century significantly increased, and this trend should be considered when conducting further analysis.
+The number of movies produced from the end of the 20th century significantly increased, and this trend should be considered when conducting further analysis.
 
 ----------------------------------------------------------------
 
