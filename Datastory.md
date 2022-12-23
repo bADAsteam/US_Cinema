@@ -43,14 +43,13 @@ Upon initial analysis, it may not be immediately evident whether there is a diff
 
 {% include Repartition_of_male_and_female_main_actor_per_decade.html %} <!--- Repartition of male/female actor--->
 
-In each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i> :
+In each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films:
 
-| 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 2000-2010 |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
-|    36 %   |    32 %   |    30 %   |    31 %   |    30 %   |    33 %   |    34 %   |    36 %    |
+|1910-1920|1920-1930|1930-1940|1940-1950|1950-1960|1960-1970|1970-1980|1980-1990|1990-2000|2000-2010|
+|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|   39 %  |   35 %  |   36 %  |   32 %  |   30 %  |   31 %  |   30 %  |    33 % |   34 %  |   36 %  |
 
-The percentage of female actors remains fairly constant, hovering between <i>30%</i> and <i>36%</i>. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
-
+The percentage of women on screen has followed a U-shaped pattern over the past century. It decreased slightly from 1910 to 1980, reaching a low of around 30% during this time period. However, it has been on the rise since 1980. The period between 1950 and 1980 saw the lowest representation of women.
 ----------------------------------------------------------------
 
 ## Male and female characters: depicted differently by the director?
