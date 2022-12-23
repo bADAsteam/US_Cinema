@@ -155,7 +155,7 @@ Country                      |	code |	Number_of_movie |	Percent | Number of act 
 
 Thanks to a preliminary study, it has been chosen to focus on American movies in the global cinema industry. This focus is appropriate for this case because Hollywood has produced almost half of the movies in the dataset (see world map above) and has the largest pool of acting talent. 
 
-{% include plot4.html %}<!--- Movie by decade--->
+<!---{% include plot4.html %} Movie by decade--->
 
 
 ## Are women underrepresented?
@@ -171,9 +171,9 @@ As part of the analysis, the number of male and female characters was tracked ov
 
 {% include Charac_decade.html %}
 
-{% include plot6.html %}<!--- Number characters by decade --->
+<!---{% include plot6.html %}<!--- Number characters by decade --->
 
-{% include plot7.html %}<!--- Weighting of male femal charac per decade --->
+<!---{% include plot7.html %}<!--- Weighting of male femal charac per decade --->
 
 This preliminary analysis of summaries provides a quick overview of the subject matter. The main finding is that the number of female characters is roughly half the number of male characters, and there is not a clear trend over time beyond an overall increase in the number of characters. It is worth noting that, while the proportion of female characters increases after the top four characters in a movie, it is still lower than the number of male characters. 
 
@@ -205,12 +205,12 @@ Furthermore, the normalization of adjectives also reveals a similarity between m
 
 In order to have a better understanding of the characteristics that are typically associated with male and female characters in movies, we found it interesting to examine the inverse intersection of both male and female normalization adjectives (e.g. verbs that are typically used to describe male and female characters). This will allow us to examine how these characters are typically portrayed in films and how these portrayals may reinforce or challenge societal gender norms.
 #### Inverse of the intersect
-{% include plot10.html %}<!--- Male most used adj --->
-{% include plot12.html %}<!--- Female most used adj --->
+<!---{% include plot10.html %}<!--- Male most used adj --->
+<!---{% include plot12.html %}<!--- Female most used adj --->
 
 
-{% include plot11.html %}<!--- Male most used verb --->
-{% include plot13.html %}<!--- Female most used verb --->
+<!---{% include plot11.html %}<!--- Male most used verb --->
+<!---{% include plot13.html %}<!--- Female most used verb --->
 
 ### Predicting a character's gender based on adjectives or verbs
 It is possible to predict based on adjectives (e.g. verbs) if a character is male or female. A random forest algorithm was used to classify text samples as male or female. 100 samples were generated for each gender, consisting of 50 randomly selected adjectives or verbs from decade-specific lists of words. These samples were analyzed using a lexical method called empath, resulting in 100 vectors for each gender with 194 features. The labels for the vectors were binary, with <strong>male</strong> represented as <strong>1</strong> and <strong>female</strong> represented as <strong>0</strong>. The random forest algorithm was applied to the resulting 200 vectors, and the importance of each feature was extracted.
@@ -231,18 +231,18 @@ It is possible to predict based on adjectives (e.g. verbs) if a character is mal
 
 To simplify the understanding of the result we decide to do a PCA to 
 
-{% include plot14.html %}<!--- PCA adj --->
-{% include plot15.html %}<!--- PCA verb --->
+<!---{% include plot14.html %}<!--- PCA adj --->
+<!---{% include plot15.html %}<!--- PCA verb --->
 
 ## How does the genre of a movie influence the development of its characters?
 
 ### Genre Repartition by Decade
 In parallel to analyzing the evolution of characters, we also examined whether the genre of the movie had an impact on the representation of female characters. To do this, we conducted a complementary analysis on the evolution of genres over the decade.
 
-{% include Genre_decade.html %}
+<!---{% include Genre_decade.html %}
 {% include plot5.html %}<!--- Number movies by genre and decade --->
-{% include plot8.html %}<!--- Weighting of male female charac per genre --->
-{% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
+<!---{% include plot8.html %}<!--- Weighting of male female charac per genre --->
+<!---{% include plot9.html %}<!--- Weightin male femal charac per decade and genre --->
 
 ## Comparison to public sentiment 
 As a final analysis we wonder
