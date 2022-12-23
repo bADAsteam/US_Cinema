@@ -64,7 +64,7 @@ To measure the importance of each character in the film, we defined a <strong> w
 
 {% include weighting_male_female_genre_decade.html %}<!--- Weightin male femal charac per decade and genre --->
 
-<strong>Action and adventure </strong> films often have a low percentage of female characters, typically not exceeding 30%. In contrast, romance and drama films tend to have a higher representation of women, with more than 40% of their characters being female.
+<strong>Action and adventure </strong> films often have a low percentage of female characters, typically not exceeding 30%. In contrast, <strong>romance and drama</strong> films tend to have a higher representation of women, with more than 40% of their characters being female.
 
 ### Women occupy as many leading roles as supporting roles
 To go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
@@ -153,25 +153,29 @@ To investigate the relationship between the gender of the hero and the review sc
 </center>
 
 
-<table align="center">
+<table>
     <thead>
-        <tr>
-        <th>      </th>
-        <th>Value of the coefficient</th>
-        <th>p-value</th>
-        </tr>
+        <td align="center"> 
+            <tr>
+            <th>      </th>
+            <th>Value of the coefficient</th>
+            <th>p-value</th>
+            </tr>
+        </td>
     </thead>
     <tbody>
-        <tr>
-        <td>intercept</td>
-        <td>52.908 </td>
-        <td>0.000</td>
-        </tr>
-        <tr>
-        <td>gender</td>
-        <td>1.9270</td>
-        <td>0.125</td>
-        </tr>
+        <td align="center"> 
+            <tr>
+            <td>intercept</td>
+            <td>52.908 </td>
+            <td>0.000</td>
+            </tr>
+            <tr>
+            <td>gender</td>
+            <td>1.9270</td>
+            <td>0.125</td>
+            </tr>
+        </td> 
     </tbody>
 </table>
 
