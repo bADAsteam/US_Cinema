@@ -71,7 +71,7 @@ To go further the weighting factors of male and female characters, we also quant
 
 {% include Repartition_of_roles_per_gender.html %}<!--- Repartition of roles by gender --->
 
-Women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a gender imbalance in the distribution of leading and supporting roles in films.
+Women are equally likely to occupy leading roles as secondary roles, while men are more likely to have leading roles than any other type of supporting role. This suggests that there is a <strong>gender imbalance in the distribution of leading and supporting roles</strong> in films.
 
 
 ### Not much difference in words between men and women at first glance
@@ -151,11 +151,11 @@ To investigate the relationship between the gender of the hero and the review sc
  Regression Results 
 ==================================================
 |           | Value of the coefficient | p-value |
-|-----------|--------------------------|---------|
+|:----------|:-------------------------|:--------|
 |   gender  |          52.908          |  0.000  |   
-|-----------|--------------------------|---------|
+|:----------|:-------------------------|:--------|
 |   gender  |          1.9270          |  0.125  | 
-|-----------|--------------------------|---------| 
+|:----------|:-------------------------|:--------| 
 
 
 
