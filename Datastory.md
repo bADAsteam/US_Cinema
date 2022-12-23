@@ -44,7 +44,7 @@ Upon initial analysis, it may not be immediately evident whether there is a diff
 
 {% include Charac_decade.html %} <!--- Repartition of male/female actor--->
 
-It shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i>:
+It shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i> :
 
 | 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 2000-2010 |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
@@ -55,7 +55,8 @@ The percentage of female actors remains fairly constant, hovering between <i>30%
 ----------------------------------------------------------------
 
 ## Male and female characters: depicted differently by the director?
-We analyzed the summaries of <i>2358</i> American movies from the <i>CMU Movie Summary Corpus</i>. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Our analysis suggests that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between <i>1930 and 2010</i>. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
+
+As says before we wanted to look at the "director point of view". For this, we analyzed the summaries of <i>2358</i> American movies from the <i>CMU Movie Summary Corpus</i>. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Results suggest that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between <i>1930 and 2010</i>. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
 
 ### Women occupy as many leading roles as supporting roles
 To measure the importance of each character in the film, we defined a weighting factor as the number of references to the character in the summary divided by the total number of character references. We then calculated the mean weighting factor for all female characters in each film and found that it varied little between decades, but differed significantly between genres, as shown in the chart below:
