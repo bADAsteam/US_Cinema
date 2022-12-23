@@ -148,18 +148,15 @@ To investigate the relationship between the gender of the hero and the review sc
 
 ```
 
-           | Coefficient value |  p-value                       
---------------------------------------------
-Intercept  |       52.9084     |   0.000 
--------------------------------------------- 
-gender     |       1.9270      |   0.125     
---------------------------------------------
-
  Regression Results 
-============================================
-| Intercept | Value of the coefficient | p-value |
+==================================================
+|           | Value of the coefficient | p-value |
 |-----------|--------------------------|---------|
-|   gender  |                          |         |   
+|   gender  |          52.908          |  0.000  |   
+|-----------|--------------------------|---------|
+|   gender  |          1.9270          |  0.125  | 
+|-----------|--------------------------|---------| 
+
 ```
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
