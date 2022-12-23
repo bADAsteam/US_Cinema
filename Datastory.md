@@ -124,9 +124,35 @@ However, it is also important to consider the audience when analyzing a film for
 In order to understand the audience's interest in female characters as main protagonists, we collected data on the ratings given to films by audiences from Wikidata. By examining the relationship between these ratings and the occupation of main roles by women, we can gain valuable insight into how the audience's preferences for female heroes have changed over time. This analysis will allow us to better understand the representation of women in film and how it has evolved over time.
 
 ### 
-{                        }<!--- Reg decade--->
-{                        }<!--- Reg genre--->
+```
 
+   OLS Regression Results                            
+==============================================================================
+Dep. Variable:                TSscore   R-squared:                       0.178
+Model:                            OLS   Adj. R-squared:                  0.177
+Method:                 Least Squares   F-statistic:                     249.0
+Date:                Fri, 23 Dec 2022   Prob (F-statistic):           1.30e-98
+Time:                        09:24:27   Log-Likelihood:                -10744.
+No. Observations:                2303   AIC:                         2.149e+04
+Df Residuals:                    2300   BIC:                         2.151e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    112.2203      2.802     40.055      0.000     106.726     117.714
+gender         3.6095      1.074      3.360      0.001       1.503       5.716
+Decade        -6.1881      0.278    -22.230      0.000      -6.734      -5.642
+==============================================================================
+Omnibus:                      258.366   Durbin-Watson:                   1.929
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               73.180
+Skew:                          -0.073   Prob(JB):                     1.29e-16
+Kurtosis:                       2.139   Cond. No.                         52.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+```
 ----------------------------------------------------------------
 
 ## Conclusion
