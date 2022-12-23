@@ -134,7 +134,7 @@ After identifying the important features, we used them to reduce the dimensional
 
 When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between 1930 and 1970, making it difficult to draw any meaningful conclusions. However, after 1970, the distance between male and female characters significantly decreased, indicating that <strong>adjectives became less divisive</strong> over time. Therefore, it appears that the physical and mental descriptions of men and women have become more similar since 1970. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
-The role of the director in setting the characters and shaping the overall tone and themes of a film cannot be overstated. The director is responsible for interpreting the script and bringing it to life on screen, and this includes the development of the characters and their motivations. In this sense, the director has a significant influence on the portrayal of gender and any biases that may be present in the film.
+The role of the director in setting the characters and shaping the overall tone and themes of a film cannot be overstated. The director is responsible for interpreting the script and bringing it to life on screen, and this includes the development of the characters and their motivations. In this sense, the <strong>director has a significant influence on the portrayal of gender</strong> and any biases that may be present in the film.
 However, it is also important to consider the audience when analyzing a film for gender bias. The film industry is a business, and filmmakers often have to consider the preferences and expectations of their audience when making creative decisions. This can sometimes lead to the perpetuation of gender stereotypes or biases in order to appeal to a wider audience or to meet certain commercial expectations.
 
 ----------------------------------------------------------------
@@ -166,6 +166,8 @@ It appears that the public does not show a preference for films with either a fe
 ## Conclusion
 
 In conclusion, the perspectives of directors have had a <strong>significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors (eg summaries) have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
+
+### See you in the...
 
 
 ----------------------------------------------------------------
