@@ -137,6 +137,7 @@ It is important to strike a balance between the creative vision of the director 
 We observed that ???????
 
 ----------------------------------------------------------------
+----------------------------------------------------------------
 
 ## Meet our team of data scientist
 
