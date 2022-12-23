@@ -77,10 +77,15 @@ Women are equally likely to occupy leading roles as secondary roles, while men a
 ### Not much difference in words between men and women at first glance
 
 <center>
-  <strong> Adjectives </strong>
+  <strong> Wordcloud adjectives </strong>
 </center>
 
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud adj --->
+
+
+<center>
+  <strong> Wordcloud verbs </strong>
+</center>
 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
 
@@ -152,9 +157,9 @@ gender     |       1.9270      |   0.125
 
  Regression Results 
 ============================================
-| Intercept | Value of the coeffci |1930-1940|1940-1950|1950-1960|1960-1970|1970-1980|1980-1990|1990-2000|2000-2010|
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|   gender  |   36 %  |   31 %  |   26 %  |   23 %  |   26 %  |   25 %  |    30 % |   31 %  |   33 %  |
+| Intercept | Value of the coefficient | p-value |
+|-----------|--------------------------|---------|
+|   gender  |                          |         |   
 ```
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
