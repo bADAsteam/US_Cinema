@@ -8,7 +8,7 @@ layout: default
 
 ## The background
 
-The term "male gaze," introduced by filmmaker Laura Mulvey in 1975, refers to the way in which the visual arts, particularly film, depict the world and women from a masculine point of view. This perspective is often characterized by an objectifying and sexualizing portrayal of women, which reinforces traditional gender roles and reinforces the dominant power dynamics between men and women. Mulvey's concept of the male gaze has been influential in feminist film theory and has sparked important discussions about women representation in the film industry and broader visual culture. 
+The term " <strong> male gaze </strong> ", introduced by filmmaker Laura Mulvey in 1975, refers to the way in which the visual arts, particularly film, depict the world and women from a masculine point of view. This perspective is often characterized by an objectifying and sexualizing portrayal of women, which reinforces traditional gender roles and reinforces the dominant power dynamics between men and women. Mulvey's concept of the male gaze has been influential in feminist film theory and has sparked important discussions about women representation in the film industry and broader visual culture. 
 
 The study of the representation of women in film is an important area of inquiry because of the significant role that the film industry plays in shaping cultural norms and values. By examining how <strong>women have been portrayed in film over the past century</strong>, we can better understand the changing attitudes towards gender and representation in society. This can be done by looking at both the <strong>perspective of the director</strong>, who plays a key role in shaping the representation of women on screen, as well as the <strong>perspective of the audience</strong>, who consume and are influenced by these representations. Through this analysis, it is possible to better understand the ways in which the film industry has influenced and been influenced by societal attitudes towards women, and to consider the potential for positive change in the representation of women in film and visual culture.
 
@@ -76,6 +76,10 @@ Women are equally likely to occupy leading roles as secondary roles, while men a
 
 ### Not much difference in words between men and women at first glance
 
+<center>
+  <strong> Adjectives </strong>
+</center>
+
 ![image](/output/MF_Adjective_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud adj --->
 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
@@ -97,7 +101,7 @@ In order to focus on gender-specific language, we excluded lexical fields that w
 {% include male_verbs.html %}<!--- Interactive bar plot : male verb --->
 {% include female_verbs.html %}<!--- Interactive bar plot : female verb --->
 
-It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty," "attractive," "appearance," and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"shape_and_size" and "childish"``` for men and ```"white_collar_job" and "royalty"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
+It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty," "attractive," "appearance," and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"emotional"``` for men and ```"shape_and_size"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
 
 
 ### A bias that decreases with time 
@@ -138,14 +142,19 @@ In order to understand the audience's interest in female characters as main prot
 To investigate the relationship between the gender of the hero and the review score of the movie, we proceeded to a matching of male and female hero films and conducted a linear regression analysis.
 
 ```
- Regression Results 
-============================================
+
            | Coefficient value |  p-value                       
 --------------------------------------------
 Intercept  |       52.9084     |   0.000 
 -------------------------------------------- 
 gender     |       1.9270      |   0.125     
 --------------------------------------------
+
+ Regression Results 
+============================================
+| Intercept | Value of the coeffci |1930-1940|1940-1950|1950-1960|1960-1970|1970-1980|1980-1990|1990-2000|2000-2010|
+|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|   gender  |   36 %  |   31 %  |   26 %  |   23 %  |   26 %  |   25 %  |    30 % |   31 %  |   33 %  |
 ```
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
