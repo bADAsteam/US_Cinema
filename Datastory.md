@@ -50,6 +50,7 @@ In each decade, there are fewer female actors than male actors, and this trend d
 |   39 %  |   35 %  |   36 %  |   32 %  |   30 %  |   31 %  |   30 %  |    33 % |   34 %  |   36 %  |
 
 The percentage of women on screen has followed a U-shaped pattern over the past century. It decreased slightly from 1910 to 1980, reaching a low of around 30% during this time period. However, it has been on the rise since 1980. The period between 1950 and 1980 saw the lowest representation of women.
+
 ----------------------------------------------------------------
 
 ## Male and female characters: depicted differently by the director?
