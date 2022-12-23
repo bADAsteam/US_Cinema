@@ -122,7 +122,7 @@ Two notable observations can be made from our analysis:
 
 * The accuracy of adjectives in differentiating male and female characters remains fairly constant between 1930 and 1970 ( between 96% and 100% ), but decreases thereafter until reaching 80% in 2000-2010. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
 
-* It is interesting to notice that there are more instances of men being classified as women (7.9%) than vice versa (5.5%).
+* It is interesting to notice that there are more instances of men being classified as women than vice versa for adjectives. This is the opposite for verbs.
 
 These findings highlight the potential changes in language use in portraying gender bias in film over time, but further research is needed to fully understand these dynamics.
 
@@ -166,14 +166,14 @@ To investigate the relationship between the gender of the hero and the review sc
         </tr>
         <tr>
         <td>gender</td>
-        <td>1.9270</td>
-        <td>0.125</td>
+        <td>2.0574</td>
+        <td>0.099</td>
         </tr> 
     </tbody>
 </table>
 
 
-Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
+Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.099, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
 It appears that <strong>the public does not show a preference</strong> for films with either a female or male hero.
 
 
