@@ -19,15 +19,15 @@ How have the perspectives of both directors and audiences impacted the evolution
 ----------------------------------------------------------------
 ## Is Hollwood the most prolific movie production ?
 
-This data story starts with three datasets from the <i>CMU Movie Summary Corpus</i> to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of <i>81741 movies</i> spanning from <i>1888 to 2012</i>, while the second dataset provides information on the characters that appear in these films. The final dataset includes <i>summaries of 20358 movies</i> from the first dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
+This data story starts with three datasets from the <i>CMU Movie Summary Corpus</i> to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of 81741 movies spanning from 1888 to 2012, while the second dataset provides information on the characters that appear in these films. The final dataset includes summaries of 20358 movies from the first dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
 
 Initially, we aim to analyze the distribution of movies across the globe and observe their evolution over time. 
 
 {% include world_map.html %}<!--- World map--->
 
-It appears that the United States accounts for <i>39%</i> of the films in the dataset, while other countries do not exceed <i>10%</i>. This suggests that the United States plays a central role in the global film industry. Taking a step back, it is logical that Hollywood is the biggest movie industry in the world. This is due to the fact that Hollywood has a long history of producing high-quality films that appeal to a wide range of audiences, and it has a strong reputation for innovation and creativity in the film industry.
+It appears that the United States accounts for 39% of the films in the dataset, while other countries do not exceed 10%. This suggests that the United States plays a central role in the global film industry. Taking a step back, it is logical that Hollywood is the biggest movie industry in the world. This is due to the fact that Hollywood has a long history of producing high-quality films that appeal to a wide range of audiences, and it has a strong reputation for innovation and creativity in the film industry.
 
-However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <i> portrayal of male and female characters in American cinema</i> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
+However, by focusing solely on American cinema, we may be limiting the scope of our analysis and overlooking the influence of other countries on the representation of gender in film. While this approach allows us to examine the <strong> portrayal of male and female characters in American cinema</strong> in depth, it also means that our findings may not necessarily be representative of the multiplicity of viewpoints present in the global film industry. Therefore, it is important to keep in mind the potential limitations of this study as we analyze the portrayal of gender bias in American cinema.
 
 As a second point we decide to explore the evolution of the <strong>distribution of movies</strong> included in the study across different decades. It will give us insight of the perspectives of directors and audiences over time.
 
@@ -47,7 +47,7 @@ In each decade, there are fewer female actors than male actors, and this trend d
 
 |1910-1920|1920-1930|1930-1940|1940-1950|1950-1960|1960-1970|1970-1980|1980-1990|1990-2000|2000-2010|
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|   39 %  |   36 %  |   31 %  |   26 %  |   23 %  |   26 %  |   25 %  |    30 % |   31 %  |   33 %  |
+|   39 %  |   36 %  |   31 %  |   26 %  |   23 %  |   26 %  |   25 %  |   30 %  |   31 %  |   33 %  |
 
 The percentage of women on screen has followed a U-shaped pattern over the past century. It decreased slightly from 1910 to 1980, reaching a low of around 30% during this time period. However, it has been on the rise since 1980. The period between 1950 and 1980 saw the lowest representation of women.
 
@@ -150,19 +150,18 @@ To investigate the relationship between the gender of the hero and the review sc
  
  <center>
   <strong>  Regression Results </strong>
- </center>
+ 
+==============================================
 
-==================================================
+|              | Value of the coefficient | p-value |
+|--------------|--------------------------|---------|
+|   intercept  |          52.908          |  0.000  |   
+|   gender     |          1.9270          |  0.125  | 
 
-|           | Value of the coefficient | p-value |
-|-----------|--------------------------|---------|
-|   gender  |          52.908          |  0.000  |   
-|   gender  |          1.9270          |  0.125  | 
-
-
+</center>
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
-It appears that <the public does not show a preference for films with either a female or male hero.
+It appears that <strong>the public does not show a preference</strong> for films with either a female or male hero.
 
 
 ## Conclusion
