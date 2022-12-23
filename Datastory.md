@@ -148,12 +148,10 @@ To investigate the relationship between the gender of the hero and the review sc
 
 
  
-<center>
-  <strong>  Regression Results </strong>
-</center>
 
-<center>
-    <table>
+<strong>  Regression Results </strong>
+
+<table>
         <thead>
             <td align="center"> 
                 <tr>
@@ -178,7 +176,6 @@ To investigate the relationship between the gender of the hero and the review sc
             </td> 
         </tbody>
     </table>
-</center>
 
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
