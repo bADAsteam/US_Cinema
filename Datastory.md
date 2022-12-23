@@ -153,8 +153,8 @@ It appears that the public does not show a preference for films with either a fe
 
 
 ## Conclusion
-It is important to strike a balance between the creative vision of the director and the needs and preferences of the audience, while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. It is possible to create compelling and meaningful films that challenge gender biases and stereotypes, while still being commercially successful.
-We observed that ???????
+
+In conclusion, the perspectives of directors have had a <strong>significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors (eg summaries) have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
 
 
 ----------------------------------------------------------------
