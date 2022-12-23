@@ -152,27 +152,27 @@ To investigate the relationship between the gender of the hero and the review sc
   <strong>  Regression Results </strong>
 </center>
 <center>
-<table>
-  <thead>
-    <tr>
-      <th>      </th>
-      <th>Value of the coefficient</th>
-      <th>p-value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>intercept</td>
-      <td>52.908 </td>
-      <td>0.000</td>
-    </tr>
-    <tr>
-      <td>gender</td>
-      <td>1.9270</td>
-      <td>0.125</td>
-    </tr>
-  </tbody>
-</table>
+    <table>
+        <thead>
+            <tr>
+            <th>      </th>
+            <th>Value of the coefficient</th>
+            <th>p-value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>intercept</td>
+            <td>52.908 </td>
+            <td>0.000</td>
+            </tr>
+            <tr>
+            <td>gender</td>
+            <td>1.9270</td>
+            <td>0.125</td>
+            </tr>
+        </tbody>
+    </table>
 </center>
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
@@ -183,7 +183,7 @@ It appears that <strong>the public does not show a preference</strong> for films
 
 In conclusion, <strong>the perspectives of directors have had a significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
 
-### See you in the...
+### See you at...
 ![image](/output/meme.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
