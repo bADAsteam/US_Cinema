@@ -108,6 +108,7 @@ To identify the most distinguishing features of each decade, we applied a random
 {% include Confusion_matrix_for_verbs.html %}<!--- Confusion matrix verb interactif --->
 
 Two notable observations can be made from our analysis:
+
 * The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> ( between <i>96% and 100%</i> ), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
 
 * It is interesting to notice  The false p and false n ??????????
@@ -143,6 +144,7 @@ Intercept  |       52.9084     |   0.000
 -------------------------------------------- 
 gender     |       1.9270      |   0.125     
 --------------------------------------------
+```
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
 It appears that the public does not show a preference for films with either a female or male hero.
