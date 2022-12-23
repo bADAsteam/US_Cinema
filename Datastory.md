@@ -34,9 +34,10 @@ As a second point we decide to explore the evolution of the <i>distribution of m
 
 {% include plot4.html %}<!--- Movie by decade--->
 
-It is quite clear that there are many more films per decade from 2000, it will be necessary to take this into account for further analysis.
+The number of movies produced at the end of the 20th century significantly increased, and this trend should be considered when conducting further analysis.
 
 ----------------------------------------------------------------
+
 ## Are women underrepresented?
 Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, our study examines the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
 <!---C'est pas le graph de repartition des main roles ca --->
@@ -52,6 +53,7 @@ Our analysis shows that in each decade, there are fewer female actors than male 
 As we can see, the percentage of female actors remains fairly constant, hovering between <i>30%</i> and <i>36%</i>. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
 
 ----------------------------------------------------------------
+
 ## Male and female characters: depicted differently by the director?
 We analyzed the summaries of <i>2358</i> American movies from the <i>CMU Movie Summary Corpus</i>. Using natural language processing algorithms, we extracted information about each character in the movies, including their gender and the adjectives and verbs associated with their characterizations. Our analysis suggests that adjectives are a good representation of the physical and mental characteristics of characters, while verbs are a good representation of their actions. This process was conducted for each decade between <i>1930 and 2010</i>. By analyzing the data in this way, we were able to gain insight into the importance and characteristics of male and female characters in each film and how these factors have changed over time.
 
@@ -114,6 +116,7 @@ The role of the director in setting the characters and shaping the overall tone 
 However, it is also important to consider the audience when analyzing a film for gender bias. The film industry is a business, and filmmakers often have to consider the preferences and expectations of their audience when making creative decisions. This can sometimes lead to the perpetuation of gender stereotypes or biases in order to appeal to a wider audience or to meet certain commercial expectations.
 
 ----------------------------------------------------------------
+
 ## Do people prefer female characters more?
 In order to understand the audience's interest in female characters as main protagonists, we collected data on the ratings given to films by audiences from Wikidata. By examining the relationship between these ratings and the occupation of main roles by women, we can gain valuable insight into how the audience's preferences for female heroes have changed over time. This analysis will allow us to better understand the representation of women in film and how it has evolved over time.
 
@@ -122,6 +125,7 @@ In order to understand the audience's interest in female characters as main prot
 {                        }<!--- Reg genre--->
 
 ----------------------------------------------------------------
+
 ## Conclusion
 It is important to strike a balance between the creative vision of the director and the needs and preferences of the audience, while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. It is possible to create compelling and meaningful films that challenge gender biases and stereotypes, while still being commercially successful.
 We observed that ???????
