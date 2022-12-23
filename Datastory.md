@@ -64,7 +64,7 @@ To measure the importance of each character in the film, we defined a <strong> w
 
 {% include weighting_male_female_genre_decade.html %}<!--- Weightin male femal charac per decade and genre --->
 
-Action and adventure films often have a low percentage of female characters, typically not exceeding 30%. In contrast, romance and drama films tend to have a higher representation of women, with more than 40% of their characters being female.
+<strong>Action and adventure </strong> films often have a low percentage of female characters, typically not exceeding 30%. In contrast, romance and drama films tend to have a higher representation of women, with more than 40% of their characters being female.
 
 ### Women occupy as many leading roles as supporting roles
 To go further the weighting factors of male and female characters, we also quantified the importance of characters by ranking them based on the number of references to them in the summary. 
@@ -146,7 +146,7 @@ In order to understand the audience's interest in female characters as main prot
 ### No preference observed 
 To investigate the relationship between the gender of the hero and the review score of the movie, we proceeded to a matching of male and female hero films and conducted a linear regression analysis.
 
-```
+
 
  Regression Results 
 ==================================================
@@ -157,7 +157,7 @@ To investigate the relationship between the gender of the hero and the review sc
 |   gender  |          1.9270          |  0.125  | 
 |-----------|--------------------------|---------| 
 
-```
+
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
 It appears that the public does not show a preference for films with either a female or male hero.
