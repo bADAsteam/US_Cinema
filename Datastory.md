@@ -89,7 +89,7 @@ Women are equally likely to occupy leading roles as secondary roles, while men a
 
 ![image](/output/MF_Verb_decade.png){:style="display:block; margin-left:auto; margin-right:auto"}<!--- Wordcloud verb --->
 
-Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as ```"old," "young," "go," "find," and "tell,"``` were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
+Upon examining the most commonly used adjectives and verbs associated with male and female characters, we did not find a clear difference between the two groups. We did notice that certain words, such as ```"old", "young", "go", "find", and "tell"``` were used equally as often in relation to female and male characters. This suggests that there may not be a significant gender-based difference in the way male and female characters are characterized in films using these specific adjectives and verbs. 
 
 ### Appearance of a bias by analyzing the lexical fields
 While analyzing individual words can provide useful insights, examining <strong>lexical fields</strong> allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the relative scores for 194 lexical fields for each decade.
@@ -148,11 +148,9 @@ To investigate the relationship between the gender of the hero and the review sc
 
 
  
- <center>
-  <strong>  Regression Results </strong>
-</center>
 <center>
-    <table>
+  <strong>  Regression Results </strong>
+    <table >
         <thead>
             <tr>
             <th>      </th>
