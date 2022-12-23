@@ -150,7 +150,7 @@ To investigate the relationship between the gender of the hero and the review sc
  
 <center>
   <strong>  Regression Results </strong>
-    <table >
+    <table class="tabcenter">
         <thead>
             <tr>
             <th>      </th>
