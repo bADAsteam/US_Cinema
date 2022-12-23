@@ -93,8 +93,13 @@ In order to focus on gender-specific language, we excluded lexical fields that w
 
 It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty," "attractive," "appearance," and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"shape_and_size" and "childish"``` for men and ```"white_collar_job" and "royalty"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
 
-### A bias that decreases with time
-Now that we have observed differences in the way male and female characters are characterized in film using specific language, it would be interesting to further investigate the factors that contribute to these differences and whether they have changed over time. To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
+### A bias that decreases with time 
+
+Now that we have observed differences in the way male and female characters are characterized in film using specific language, it would be interesting to further investigate the factors that contribute to these differences and whether they have changed over time.
+
+
+To identify the most distinguishing features of each decade, we applied a random forest algorithm and selected the most important features based on their importance scores. In addition, we tested the predictive quality of the model by generating confusion matrices for verbs and adjectives. 
+
 {% include plot15.html %}<!--- Confusion matrix adj interactif --->
 {% include plot16.html %}<!--- Confusion matrix verb interactif --->
 
