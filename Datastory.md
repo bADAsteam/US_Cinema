@@ -47,7 +47,7 @@ In each decade, there are fewer female actors than male actors, and this trend d
 
 |1910-1920|1920-1930|1930-1940|1940-1950|1950-1960|1960-1970|1970-1980|1980-1990|1990-2000|2000-2010|
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|   39 %  |   35 %  |   36 %  |   32 %  |   30 %  |   31 %  |   30 %  |    33 % |   34 %  |   36 %  |
+|   39 %  |   36 %  |   31 %  |   26 %  |   23 %  |   26 %  |   25 %  |    30 % |   31 %  |   33 %  |
 
 The percentage of women on screen has followed a U-shaped pattern over the past century. It decreased slightly from 1910 to 1980, reaching a low of around 30% during this time period. However, it has been on the rise since 1980. The period between 1950 and 1980 saw the lowest representation of women.
 
@@ -86,7 +86,7 @@ Upon examining the most commonly used adjectives and verbs associated with male 
 While analyzing individual words can provide useful insights, examining lexical fields allows for a more comprehensive and standardized comparison of films across different decades. To do this, we calculated the relative scores for <i>194 lexical fields</i> for each decade.
 
 
-{% include Lexical_fields_for_Adjectives.html %}
+![image](/output/Lexical_fields_for_Adjectives.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 In order to focus on gender-specific language, we excluded lexical fields that were common to both male and female characters and instead highlighted those that were specific to one gender. This approach allowed us to more accurately compare the language used to describe male and female characters across different time periods.
@@ -123,7 +123,7 @@ After identifying the important features, we used them to reduce the dimensional
 
 {% include PCA_2D_projection_of_10_most_important_features_per_decade_for_verbs.html %}<!--- PCA verb --->
 
-When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. Therefore, it appears that the physical and mental descriptions of men and women have become more similar since 1980.In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
+When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. Therefore, it appears that the physical and mental descriptions of men and women have become more similar since 1970. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
 The role of the director in setting the characters and shaping the overall tone and themes of a film cannot be overstated. The director is responsible for interpreting the script and bringing it to life on screen, and this includes the development of the characters and their motivations. In this sense, the director has a significant influence on the portrayal of gender and any biases that may be present in the film.
 However, it is also important to consider the audience when analyzing a film for gender bias. The film industry is a business, and filmmakers often have to consider the preferences and expectations of their audience when making creative decisions. This can sometimes lead to the perpetuation of gender stereotypes or biases in order to appeal to a wider audience or to meet certain commercial expectations.
