@@ -39,18 +39,18 @@ The number of movies produced at the end of the 20th century significantly incre
 ----------------------------------------------------------------
 
 ## Are women underrepresented?
-Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, our study examines the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
+Upon initial analysis, it may not be immediately evident whether there is a difference in the amount of screen time given to male and female actors. To uncover this disparity, we move to look at the total number of male and female actors in each decade by comparing the number of speaking roles and the amount of screen time they are given.
 <!---C'est pas le graph de repartition des main roles ca --->
 
 {% include Charac_decade.html %} <!--- Repartition of male/female actor--->
 
-Our analysis shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i>:
+It shows that in each decade, there are fewer female actors than male actors, and this trend does not appear to change over time. The table below illustrates the evolution of the percentage of female actors in films from the <i>1930s to the 2010s</i>:
 
 | 1930-1940 | 1940-1950 | 1950-1960 | 1960-1970 | 1970-1980 | 1980-1990 | 1990-2000 | 2000-2010 |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
 |    36 %   |    32 %   |    30 %   |    31 %   |    30 %   |    33 %   |    34 %   |    36 %    |
 
-As we can see, the percentage of female actors remains fairly constant, hovering between <i>30%</i> and <i>36%</i>. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
+The percentage of female actors remains fairly constant, hovering between <i>30%</i> and <i>36%</i>. However, we do see a slight increase in the percentage of female actors in each decade starting from the 1980s. This trend suggests that although there has been some progress in increasing the representation of women in film, there is still a long way to go in achieving gender parity in the industry.
 
 ----------------------------------------------------------------
 
