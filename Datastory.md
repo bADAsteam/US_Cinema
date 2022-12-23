@@ -136,7 +136,7 @@ We observed that ???????
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
-## Meet our team of data scientist
+## Meet our team of data scientists
 
 <div class="row">
   <div class="column">
