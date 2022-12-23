@@ -113,7 +113,7 @@ Two notable observations can be made from our analysis:
 
 * The accuracy of adjectives in differentiating male and female characters remains fairly constant between <i>1930 and 1970</i> ( between <i>96% and 100%</i> ), but decreases thereafter until reaching <i>80%</i> in <i>2000-2010</i>. This suggests that it becomes increasingly difficult to distinguish between male and female characters based on their physical or mental descriptions as time progresses. In contrast, the accuracy of verbs in differentiating male and female characters does not show a clear trend over time, with no clear pattern observed across decades. 
 
-* It is interesting to notice  The false p and false n ??????????
+* It is interesting to notice that there are more instances of men being classified as women (7.9%) than vice versa (5.5%).
 
 These findings highlight the potential changes in language use in portraying gender bias in film over time, but further research is needed to fully understand these dynamics.
 
@@ -123,7 +123,7 @@ After identifying the important features, we used them to reduce the dimensional
 
 {% include PCA_2D_projection_of_10_most_important_features_per_decade_for_verbs.html %}<!--- PCA verb --->
 
-When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
+When analyzing the distance between male and female characters using adjectives, we found that it fluctuated between <i>1930</i> and <i>1970</i>, making it difficult to draw any meaningful conclusions. However, after <i>1970</i>, the distance between male and female characters significantly decreased, indicating that adjectives became less divisive over time. Therefore, it appears that the physical and mental descriptions of men and women have become more similar since 1980.In contrast, we did not observe any clear trend when using verbs to analyze the distance between male and female characters, making it difficult to reach a definitive conclusion about the use of verbs in portraying gender bias.
 
 The role of the director in setting the characters and shaping the overall tone and themes of a film cannot be overstated. The director is responsible for interpreting the script and bringing it to life on screen, and this includes the development of the characters and their motivations. In this sense, the director has a significant influence on the portrayal of gender and any biases that may be present in the film.
 However, it is also important to consider the audience when analyzing a film for gender bias. The film industry is a business, and filmmakers often have to consider the preferences and expectations of their audience when making creative decisions. This can sometimes lead to the perpetuation of gender stereotypes or biases in order to appeal to a wider audience or to meet certain commercial expectations.
