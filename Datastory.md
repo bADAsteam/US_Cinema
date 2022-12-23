@@ -14,10 +14,7 @@ The study of the representation of women in film is an important area of inquiry
 How have the perspectives of both directors and audiences impacted the evolution of gender bias in character portrayal in film?
 </i></strong>
 
-
-
 ----------------------------------------------------------------
-
 ## Is Hollwood the most prolific film production ?
 
 This data story starts with three datasets from the <i>CMU Movie Summary Corpus</i> to explore the evolution of gender bias in character portrayal in film. The first dataset includes details on a total of <i>81741 movies</i> spanning from <i>1888 to 2012</i>, while the second dataset provides information on the characters that appear in these films. The final dataset includes <i>summaries of 20358 movies</i> from the first dataset. By analyzing these datasets, we can gain a better understanding of the portrayal of gender bias in film over time and the representation of male and female characters.
@@ -136,9 +133,9 @@ In order to understand the audience's interest in female characters as main prot
 It is important to strike a balance between the creative vision of the director and the needs and preferences of the audience, while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. It is possible to create compelling and meaningful films that challenge gender biases and stereotypes, while still being commercially successful.
 We observed that ???????
 
-----------------------------------------------------------------
-----------------------------------------------------------------
 
+----------------------------------------------------------------
+----------------------------------------------------------------
 ## Meet our team of data scientist
 
 <div class="row">
