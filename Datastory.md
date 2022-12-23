@@ -106,7 +106,7 @@ In order to focus on gender-specific language, we excluded lexical fields that w
 {% include male_verbs.html %}<!--- Interactive bar plot : male verb --->
 {% include female_verbs.html %}<!--- Interactive bar plot : female verb --->
 
-It is quite clear that lexical fields such as ```"kill," "heroic," "fight," and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty," "attractive," "appearance," and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"emotional"``` for men and ```"shape_and_size"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
+It is quite clear that lexical fields such as ```"kill", "heroic", "fight", and "negative_emotion"``` are more commonly associated with men, while lexical fields such as ```"beauty", "attractive", "appearance" and "pain"``` are more commonly associated with women. Additionally, some less expected lexical fields, such as ```"emotional"``` for men and ```"shape_and_size"``` for women. This suggests that there may be some gender-based differences in the way male and female characters are characterized in films using specific language. 
 
 
 ### A bias that decreases with time 
@@ -150,15 +150,28 @@ To investigate the relationship between the gender of the hero and the review sc
  
  <center>
   <strong>  Regression Results </strong>
- 
-==============================================
-
-|              | Value of the coefficient | p-value |
-|--------------|--------------------------|---------|
-|   intercept  |          52.908          |  0.000  |   
-|   gender     |          1.9270          |  0.125  | 
-
 </center>
+<table>
+  <thead>
+    <tr>
+      <th>      </th>
+      <th>Value of the coefficient</th>
+      <th>p-value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>intercept</td>
+      <td>52.908 </td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>gender</td>
+      <td>1.9270</td>
+      <td>0.125</td>
+    </tr>
+  </tbody>
+</table>
 
 Based on the results of the linear regression analysis, there is no significant relationship between the gender of the hero and the review score of the movie. The p-value for the gender variable in the model is 0.125, which is greater than the commonly used alpha level of 0.05. This suggests that there is insufficient evidence to reject the null hypothesis that the gender of the hero has no effect on the review score.
 It appears that <strong>the public does not show a preference</strong> for films with either a female or male hero.
@@ -166,7 +179,7 @@ It appears that <strong>the public does not show a preference</strong> for films
 
 ## Conclusion
 
-In conclusion, the perspectives of directors have had a <strong>significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors (eg summaries) have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
+In conclusion, <strong>the perspectives of directors have had a significant impact on the evolution of gender bias</strong> in character portrayal in Hollywood movies. Directors have the power to create and shape the characters and storylines of films, and their personal beliefs and biases can influence the way that gender is portrayed on screen. But, it is important to strike a balance between the creative vision of the director and the needs and preferences of the audience (eg review scores), while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. Indeed the <strong>presence of female character does not influence that much the audience</strong>. It could be so many other fact that a movie has a gradereview score (eg blockbuster, word-of-mouth...)
 
 ### See you in the...
 
