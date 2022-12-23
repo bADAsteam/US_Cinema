@@ -135,4 +135,26 @@ In order to understand the audience's interest in female characters as main prot
 ## Conclusion
 It is important to strike a balance between the creative vision of the director and the needs and preferences of the audience, while also being mindful of the potential impact of the film on societal attitudes and beliefs about gender. It is possible to create compelling and meaningful films that challenge gender biases and stereotypes, while still being commercially successful.
 We observed that ???????
+
 ----------------------------------------------------------------
+
+## Meet our team of data scientist
+
+<div class="row">
+  <div class="column">
+        <img src="/US_Cinema/output/AntoineLap.jpeg" alt="image1" style="width:100%">
+        <p><strong>Antoine Laperriere</strong><br> Data Explorer</p>
+    </div>
+    <div class="column">
+        <img src="/US_Cinema/output/Benoit_gaudiot.png" alt="image2" style="width:100%">
+        <p><strong>Benoit Gaudiot</strong><br> Data Analyst </p>
+  </div>
+<div class="column">
+    <img src="/US_Cinema/output/Nathan.jpg" alt="image1" style="width:100%">
+    <p><strong>Nathan Paillou</strong><br> Data Analyst</p>
+</div>
+<div class="column">
+    <img src="/US_Cinema/output/RomainBezeaud.jpeg" alt="image2" style="width:100%">
+    <p><strong>Romain Bezeaud</strong><br> Web developper</p>
+</div>
+</div>
